@@ -2,6 +2,12 @@ header{
     width: 100%;
     height: 20%;
     display: flex;
+    background: linear-gradient(0deg, rgba(2, 36, 57, 0.00) 0%, rgba(2, 36, 57, 0.50) 100%), linear-gradient(0deg, rgba(2, 36, 57, 0.00) 73.25%, rgba(2, 36, 57, 0.50) 120.14%, rgba(2, 36, 57, 0.50) 220.1%);
+    background-size: cover;
+    background-position: center;
+
+    /* background-image: url(/src/assets/backgroundHeader.png);
+    background-repeat: no-repeat; */
     
 }
 .searchImput{
@@ -13,4 +19,6 @@ header{
     width: 30px;
     height: 20px;
 }
+
+
 

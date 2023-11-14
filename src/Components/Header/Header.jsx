@@ -1,11 +1,11 @@
 import './Header.css';
-import Logo from '../../assets/Logo.png'
+import Logo from '../../assets/logo.png'
 
 
 function Header (){
     return(
      <header>
-        <Logo/>
+        <img src={Logo}></img>
         <input className="searchImput" type="text" aria-labelledby="searchDiv" placeholder=" Type to search " />
         <button className="searchIcon" type="submit"></button>
      </header>   
