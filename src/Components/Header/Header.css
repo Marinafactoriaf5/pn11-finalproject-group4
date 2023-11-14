@@ -1,0 +1,16 @@
+header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    
+}
+.searchImput{
+    width: 200px;
+    border-radius: 30px;
+    
+}
+.searchIcon{
+    width: 30px;
+    height: 20px;
+}
+
