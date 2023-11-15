@@ -13,7 +13,7 @@
     scroll-behavior: smooth;
   }
   
-  img{
+  .imgHero{
     z-index: 0;
     display: flex;
     position:absolute;
@@ -21,7 +21,7 @@
     width: 100%;
   }
   
-  h1{
+  .textHero1{
     position: absolute;
     display: flex;
     z-index: 3;
@@ -39,7 +39,7 @@
 
   }
 
-  h3{
+  .textHero2{
     position: absolute;
     z-index: 5;
     color: #FFF;

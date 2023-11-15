@@ -2,13 +2,13 @@ import './Catalog.css'
 
 function Catalog (){
     return(
-     <span className='card'> 
+     <div className='card'> 
         <img className='eventImage'src='https://applications-media.feverup.com/image/upload/f_auto,w_320,h_320/fever2/plan/photo/376ad52a-7c9c-11ee-8438-1a6372252704.jpg'></img>
      <div className='eventText'>
      <h4 className='eventName'>Event Name</h4>
         <p className='date'>Date</p>
     </div>   
-     </span>
+     </div>
     )
 }
 
