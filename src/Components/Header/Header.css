@@ -8,6 +8,8 @@ header {
       linear-gradient(0deg, rgba(2, 36, 57, 0.00) 73.25%, rgba(2, 36, 57, 0.50) 120.14%, rgba(2, 36, 57, 0.50) 220.1%);
     background-size: cover;
     background-position: center;
+    position: fixed;
+    z-index:10;
   }
   
 
