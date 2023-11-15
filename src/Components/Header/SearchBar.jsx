@@ -8,8 +8,8 @@ function SearchBar() {
         console.log('Realizar búsqueda');
     };
     return (
-        <div>
-            <form className="searchBar" onSubmit={handleSearch}>
+        <div className="searchBar">
+            <form  onSubmit={handleSearch}>
                 <label htmlFor="searchInput" className="searchInputWrapper">
                     <input
                         id="searchInput"
