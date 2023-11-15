@@ -1,18 +1,21 @@
+// Header.jsx
+
+import React from 'react';
 import './Header.css';
-import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.png';
+import SearchBar from './SearchBar';
 
 
-function Header (){
-    return(
-     <header>
-        <img src={Logo} className="logo" alt='VIVID'></img>
-        <div className='searchBar'>
-        <input className="searchInput" type="text" aria-labelledby="searchDiv" placeholder=" Type to search " />
-        <button className="searchIcon" type="submit"></button>
-        </div>
-     </header>   
 
-    )
+function Header() {
+
+  return (
+    <header>
+      <img src={Logo} className="logo" alt="VIVID" />
+      <SearchBar/>
+    </header>
+  );
 }
 
 export default Header;
+
