@@ -1,0 +1,31 @@
+.searchBar {
+    width: 100%;
+    padding: 0 20px;
+    margin-left: 25%;
+}
+
+.searchInputWrapper {
+    position: relative;
+}
+
+.searchInput {
+    width: 40vw;
+    max-width: 400px;
+    height: 51px;
+    border-radius: 30px;
+    opacity: 0.3;
+    font-weight: 300;
+    border: 2px solid #022439;
+    font-size: 16px;
+    padding-left: 4%;
+    padding-right: 40px;
+    /* Ajusta el padding derecho para dejar espacio para el ícono */
+}
+
+.searchIcon {
+    position: absolute;
+    top: -20%;
+    right: 15px;
+    transform: translateX(0%);
+    cursor: pointer;
+}
