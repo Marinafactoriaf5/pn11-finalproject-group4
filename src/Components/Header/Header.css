@@ -2,6 +2,7 @@ header{
     width: 100%;
     height: 20%;
     display: flex;
+    align-items: center;
     background: linear-gradient(0deg, rgba(2, 36, 57, 0.00) 0%, rgba(2, 36, 57, 0.50) 100%), linear-gradient(0deg, rgba(2, 36, 57, 0.00) 73.25%, rgba(2, 36, 57, 0.50) 120.14%, rgba(2, 36, 57, 0.50) 220.1%);
     background-size: cover;
     background-position: center;
@@ -11,13 +12,36 @@ header{
     
 }
 .searchImput{
-    width: 200px;
-    border-radius: 30px;
+    width: 40%;
+    height: 51px;
+    border-radius: 51px;
+    opacity: 0.3;
+    font-weight: 300;
+    border: 2px solid #022439;
+    font-size: 16px;
+    padding-left: 2%;
+    position: relative;
+    right: 15%;
     
 }
 .searchIcon{
-    width: 30px;
-    height: 20px;
+    background-image: url(/src/assets/searchBtn.svg);
+    background-size: content;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    width: 5%;
+    position: relative;
+    padding: 2%;
+    right: 40%;
+    cursor: pointer;
+    /* min-width: 20px;
+    max-height: 20px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    width: 130px;
+    height: 47px;
 }
 
 
