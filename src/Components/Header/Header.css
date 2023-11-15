@@ -10,13 +10,15 @@ header {
     background-position: center;
     position: fixed;
     z-index:10;
+    
   }
   
 
   
   .logo {
-    width: 130px;
-    height: 47px;
+    width: 25%;
+    height: 50%;
+    margin-top: -60px;
   }
   
   

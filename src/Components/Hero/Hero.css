@@ -1,57 +1,48 @@
-.body-hero{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
-    overflow-x: hidden;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-  }
-  
-  .imgHero{
-    z-index: 0;
-    display: flex;
-    position:absolute;
-    object-fit: cover;
-    width: 100%;
-  }
-  
-  .textHero1{
-    position: absolute;
-    display: flex;
-    z-index: 3;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    width: 100%;
-    height: 380px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
+.bodyHero {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Utilizar solo overflow en lugar de overflow-x y overflow-y */
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 70vh;
+}
 
-  }
+.imgHero {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
 
-  .textHero2{
-    position: absolute;
-    z-index: 5;
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
-    height: 400px;
-    display: flex;
-  }
+.textHero1,
+.textHero2 {
+  margin-left: -10%;
+  position: absolute;
+  display: flex;
+  z-index: 3;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100%;
+  text-align: center; /* Alinear el texto al centro */
+}
+
+.textHero1 {
+  min-height: 18vh;
+  
+  
+}
+
+.textHero2 {
+  min-height: 18vh;
+  display: flex;
+  align-items: center;
+  
+}
