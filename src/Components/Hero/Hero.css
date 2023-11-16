@@ -18,6 +18,13 @@
   left: 0;
 }
 
+.textHero{
+  
+}
+
+
+
+
 .textHero1,
 .textHero2 {
   margin-left: -10%;
@@ -31,19 +38,16 @@
   font-weight: 500;
   line-height: normal;
   width: 100%;
-  text-align: center; /* Alinear el texto al centro */
- 
+  text-align: center;
+  min-height: 18vh;
 }
 
 .textHero1 {
-  min-height: 18vh;
-  
-  
+  font-weight: 600;
+  font-size: 3vw;
 }
 
 .textHero2 {
-  min-height: 18vh;
-  display: flex;
   align-items: center;
-  
+  font-size: 2vw;
 }
