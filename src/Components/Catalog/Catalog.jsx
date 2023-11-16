@@ -1,36 +1,27 @@
+import React, { useState } from 'react';
 import './Catalog.css';
-import React, { useEffect, useState} from 'react';
+import data from '../../../db.json';
 
+const Catalog = () => {
+  const [events] = useState(data.events);
 
-function Catalog()  {
-    return(
-    
-    <div className="fetchdiv">
-            {imagenes.events.map((event) => {
-                return (
-
-                    <div className='card' key={event.id}>
-                        <img className="eventImage" src={event.imagen} alt={event.name} />
-                        <p>€{event.precio}</p>
-                        
-                    </div>
-
-                );
-            })}
-            </div>
-    )
-    
-    return (
-        <div className='card'>
-            <img className='eventImage' />
-            <div className='eventText'>
-                <h4 className='eventName'>Event Name</h4>
-                <p className='date'>Date</p>
-            </div>
+  return (
+    <div>
+      {events.map((event) => (
+        <div key={event.nombre} className='card'>
+          <img
+            className='eventImage'
+            src={event.imagenes && event.imagenes.length > 0 ? event.imagenes[0] : ''}
+            alt={event.nombre}
+          />
+          <div className='eventText'>
+            <h4 className='eventName'>{event.nombre}</h4>
+            <p className='price'>{event.precio}</p>
+          </div>
         </div>
-
-    )
-}
+      ))}
+    </div>
+  );
+};
 
 export default Catalog;
-
