@@ -9,7 +9,7 @@ function SearchBar() {
     };
     return (
         <div className="searchBar">
-            <form  onSubmit={handleSearch}>
+            <form onSubmit={handleSearch}>
                 <label htmlFor="searchInput" className="searchInputWrapper">
                     <input
                         id="searchInput"

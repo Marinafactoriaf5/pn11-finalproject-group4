@@ -1,0 +1,394 @@
+{
+    "events": [
+        {
+            "nombre": "Creación equipo emprendedoras conscientes Eco",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/e/9/4/8/event_516119720.webp?w=384"],
+            "horario": {
+                "dia": "Sabado, 18 de Noviembre de 2023",
+                "hora": "11:30"
+            },
+            "duracion": "1:30 horas",
+            "precio": "GRATIS",
+            "categoria": "Spirituality, Eco-Conscious, Stress Management, Healthy Living, Nutrition",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Las magias de Túnez - Circuito en grupo reducido",
+            "imagenes": ["https://secure-content.meetupstatic.com/images/classic-events/516002615/272x153.webp?w=384"],
+            "horario": {
+                "dia": "Viernes, 8 de Diciembre de 2023",
+                "hora": "20:00"
+            },
+            "duracion": "3 horas",
+            "precio": "GRATIS",
+            "categoria": "Travel, International Travel, Photography History",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "The Samanà Birthday Party",
+            "imagenes": ["https://secure-content.meetupstatic.com/images/classic-events/516869972/272x153.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 26 de Noviembre de 2023",
+                "hora": "17:00"
+            },
+            "duracion": "4 horas",
+            "precio": "33,00 EUR",
+            "categoria": "Pranayama, Yoga, Yoga Dance, Spiritual Experiences, Employee Wellness",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "WebPerf Workshop in Adevinta with Joan Leon",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/5/2/5/0/event_228741072.webp?w=384"],
+            "horario": {
+                "dia": "Jueves, 16 de Noviembre de 2023",
+                "hora": "19:00"
+            },
+            "duracion": "2 horas",
+            "precio": "GRATIS",
+            "categoria": "Web Performance, Web Development, Website Optimization, Load Testing and Performance, Web Technology",
+            "descripcion": "calle",
+            "direccion":"ONLINE"
+        },
+        {
+            "nombre": "DREAMLIFE STARTUP AWARD",
+            "imagenes": ["https://secure-content.meetupstatic.com/images/classic-events/517184261/272x153.webp?w=384"],
+            "horario": {
+                "dia": "Jueves, 30 de Noviembre de 2023",
+                "hora": "19:00"
+            },
+            "duracion": "3 horas",
+            "precio": "GRATIS",
+            "categoria": "Communication, Entrepreneurship, Learning, Conversation, Self-Help & Self-Improvement",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Introducció a la sopa de partícules del model estàndard de la física",
+            "imagenes": ["https://secure-content.meetupstatic.com/images/classic-events/514674724/272x153.webp?w=384"],
+            "horario": {
+                "dia": "Miércoles, 15 de Noviembre de 2023",
+                "hora": "19:00"
+            },
+            "duracion": "2 horas",
+            "precio": "GRATIS",
+            "categoria": "Physics, Metaphysics, Astrophysics, Quantum Physics",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Goddess Gathering Sensual Journey",
+            "imagenes": ["https://secure-content.meetupstatic.com/images/classic-events/512779185/272x153.webp?w=384"],
+            "horario": {
+                "dia": "Viernes, 1 de Diciembre de 2023",
+                "hora": "18:30"
+            },
+            "duracion": "3 horas",
+            "precio": "GRATIS",
+            "categoria": "Spirituality, Women's Networking, Creativity, Spiritual Healing, Meditation and Healing",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Club de lectura - Cometierra, de Dolores Reyes",
+            "imagenes": ["https://secure-content.meetupstatic.com/images/classic-events/515694584/272x153.webp?w=384"],
+            "horario": {
+                "dia": "Viernes, 24 de Noviembre de 2023",
+                "hora": "19:00"
+            },
+            "duracion": "1:30 horas",
+            "precio": "4,00 EUR",
+            "categoria": "Book Club, Feminism, Books and Drinks, Women's Book Club, Courses and Workshops",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Comment investir dans l'Immobilier Locatif ?",
+            "imagenes": ["https://secure-content.meetupstatic.com/images/classic-events/514159693/272x153.webp?w=384"],
+            "horario": {
+                "dia": "Martes, 14 de Noviembre de 2023",
+                "hora": "19:00"
+            },
+            "duracion": "1 hora",
+            "precio": "GRATIS",
+            "categoria": "Investment",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "ZOOM : Toulouse Toastmasters Communication (En français)",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/c/f/0/a/event_490013002.webp?w=384"],
+            "horario": {
+                "dia": "Miércoles, 15 de Noviembre de 2023",
+                "hora": "19:00"
+            },
+            "duracion": "2 horas",
+            "precio": "GRATIS",
+            "categoria": "Toastmasters, Personal Development, Professional Networking, Self-Help & Self-Improvement, Public Speaking",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "🥂2nd Tuesday Networking Drinks🥂: November edition",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/7/4/7/9/600_512909817.webp?w=384"],
+            "horario": {
+                "dia": "Martes, 14 de Noviembre de 2023",
+                "hora": "18:30"
+            },
+            "duracion": "2 horas",
+            "precio": "GRATIS",
+            "categoria": "Women's Business Networking, Women's Empowerment, Professional Networking, Women Entrepreneurs, Business Referral Networking",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Barcelona Casual Runners Weekly Meetup",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/4/7/5/7/600_501198263.webp?w=384"],
+            "horario": {
+                "dia": "Martes, 14 de Noviembre de 2023",
+                "hora": "19:30"
+            },
+            "duracion": "3 horas",
+            "precio": "GRATIS",
+            "categoria": "Sport",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Anything Else? Open Mic Night of Music, Spoken Word and Stories",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/c/9/9/d/600_503391613.webp?w=384"],
+            "horario": {
+                "dia": "Martes, 14 de Noviembre de 2023",
+                "hora": "20:00"
+            },
+            "duracion": "2 horas",
+            "precio": "5,00 EUR",
+            "categoria": "Party",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "LA PAELLA DELS DIJOUS",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/b/2/e/c/600_516105804.webp?w=384"],
+            "horario": {
+                "dia": "Martes, 14 de Noviembre de 2023",
+                "hora": "20:00"
+            },
+            "duracion": "1:15 horas",
+            "precio": "GRATIS",
+            "categoria": "Show, Comedia",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "II Conference of R and XIII Workshop for R Users",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/b/b/9/4/600_514968020.webp?w=384"],
+            "horario": {
+                "dia": "Miércoles, 15 de Noviembre de 2023",
+                "hora": "00:00"
+            },
+            "duracion": "1 dia y 19 horas",
+            "precio": "GRATIS",
+            "categoria": "Conference Planning, Programming in R, Data Science, Statistical Computing, Machine Learning",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "YOGA dinamico - Miércoles",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/5/d/6/0/600_501623904.webp?w=384"],
+            "horario": {
+                "dia": "Miércoles, 15 de Noviembre de 2023",
+                "hora": "19:00"
+            },
+            "duracion": "1 hora",
+            "precio": "12,00 EUR",
+            "categoria": "Yoga, Vida, Naturaleza",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Hatha Yoga en Badalona  🕉️ ",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/c/c/3/c/600_515512284.webp?w=384"],
+            "horario": {
+                "dia": "Jueves, 16 de Noviembre de 2023",
+                "hora": "10:00"
+            },
+            "duracion": "1:30 horas",
+            "precio": "PAGO",
+            "categoria": "Yoga, Vida, Naturaleza",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "MONTHLY WOMEN'S CIRCLE: Topic... Pleasure & Guilt",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/5/b/6/4/600_514883396.webp?w=384"],
+            "horario": {
+                "dia": "Jueves, 16 de Noviembre de 2023",
+                "hora": "18:30"
+            },
+            "duracion": "2 horas",
+            "precio": "PAGO",
+            "categoria": "Self-Help & Self-Improvement, Meditation, Women's Support, Wellness, Guided Meditation",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "REAL CONNECTIONS. HEALING OUR RELASHIONSHIPS",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/c/3/7/1/600_513110033.webp?w=384"],
+            "horario": {
+                "dia": "Jueves, 16 de Noviembre de 2023",
+                "hora": "19:00"
+            },
+            "duracion": "2 horas",
+            "precio": "15 EUR",
+            "categoria": "Dance and Movement, Healthy Living, Live Music, Meditation, Cacao Ceremony",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Métricas UX: Entendiendo la relación entre usabilidad y negocio",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/b/5/2/f/600_516286383.webp?w=384"],
+            "horario": {
+                "dia": "Jueves, 16 de Noviembre de 2023",
+                "hora": "18:00"
+            },
+            "duracion": "1 horas",
+            "precio": "GRATIS",
+            "categoria": "Extreme Programming, UI/UX Design, Product Design, Software Development, Metrics",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Marine enology. Comparison wine tasting",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/6/0/5/3/600_516024659.webp?w=384"],
+            "horario": {
+                "dia": "Sábado, 18 de Noviembre de 2023",
+                "hora": "19:30"
+            },
+            "duracion": "2 horas",
+            "precio": "62 EUR",
+            "categoria": "Wine Making, Learning About Wines Around the World, Social Networking, Wine Lovers, Wine Tasting",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "🍂 Colores de Otoño/Autumn- La Fageda d’en Jorda and the volcanes of la Garrotxa",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/2/a/4/d/600_492850829.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 19 de Noviembre de 2023",
+                "hora": "07:50"
+            },
+            "duracion": "11:20 horas",
+            "precio": "GRATIS",
+            "categoria": "Walking, Hiking, Weekend Adventures, Outdoor Adventures, Nature Walks",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "🍁🍁 FAGEDA MÁGICA GARROTXA & Ermita de Cuento de Hadas 🍁🍁 Senderismo Hiking🍁",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/2/e/1/d/600_516491805.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 19 de Noviembre de 2023",
+                "hora": "07:55"
+            },
+            "duracion": "9:05 horas",
+            "precio": "GRATIS",
+            "categoria": "Outdoors, Excursion, Hiking, Outdoor Adventures, Nature Walks",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "HORSE ROUTE - RUTA A CABALLO",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/4/9/4/8/600_515598760.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 19 de Noviembre de 2023",
+                "hora": "10:00"
+            },
+            "duracion": "3 horas",
+            "precio": "GRATIS",
+            "categoria": "Therapy, Communication, Make New Friends, Cultural Activities, Outdoor Adventures",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Taller de Acroyoga en Familia",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/6/8/e/1/600_492026849.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 19 de Noviembre de 2023",
+                "hora": "11:00"
+            },
+            "duracion": "1:15 horas",
+            "precio": "GRATIS",
+            "categoria": "Parents, Outdoors, Yoga, Family Friendly, Kids",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Debat: APUNTS DEL SUBSÒL (1864), de Fiódor Dostoïevski [PRESENCIAL!]",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/d/3/6/2/600_516474114.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 19 de Noviembre de 2023",
+                "hora": "12:00"
+            },
+            "duracion": "2 horas",
+            "precio": "GRATIS",
+            "categoria": "Book Swap",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Museo Marítimo",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/d/d/7/4/600_514556692.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 19 de Noviembre de 2023",
+                "hora": "16:30"
+            },
+            "duracion": "2 horas",
+            "precio": "12 EUR",
+            "categoria": "Outdoors, Artists, Art, Historical Tours, Walking Tours",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Scrabble en família al Casal d'Alella",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/b/4/5/3/600_510346163.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 19 de Noviembre de 2023",
+                "hora": "17:30"
+            },
+            "duracion": "2 horas",
+            "precio": "GRATIS",
+            "categoria": "Catalan Language, Cultural Activities, Scrabble, Free Events, Board Games",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "Fusión Yin☯️Chi Kung en MAHA MA - la tristeza: un muro entre dos jardines",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/c/6/0/5/600_516290693.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 19 de Noviembre de 2023",
+                "hora": "18:30"
+            },
+            "duracion": "2 horas",
+            "precio": "15 EUR",
+            "categoria": "Fitness, Healthy Living, Energy Healing, Consciousness, Health and Wellness Exercises",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        },
+        {
+            "nombre": "The Soul Kitchen: Concert + Jam Session + Dinner",
+            "imagenes": ["https://secure.meetupstatic.com/photos/event/1/a/9/6/600_516906806.webp?w=384"],
+            "horario": {
+                "dia": "Domingo, 19 de Noviembre de 2023",
+                "hora": "21:00"
+            },
+            "duracion": "1:45 horas",
+            "precio": "GRATIS",
+            "categoria": "Jazz, Music, Live Music, Musicians, Guitar",
+            "descripcion": "calle",
+            "direccion": "ONLINE"
+        }
+    ]
+}

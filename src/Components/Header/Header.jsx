@@ -12,7 +12,7 @@ function Header() {
   return (
     <header>
       <img src={Logo} className="logo" alt="VIVID" />
-      <SearchBar/>
+      <SearchBar />
     </header>
   );
 }

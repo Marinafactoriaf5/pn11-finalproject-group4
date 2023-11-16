@@ -22,6 +22,7 @@
     padding-right: 40px;
     /* Ajusta el padding derecho para dejar espacio para el ícono */
 }
+
 .searchInput::placeholder {
     color: #9a9a9a;
 }
