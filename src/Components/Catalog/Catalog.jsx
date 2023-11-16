@@ -4,11 +4,11 @@ import data from "../../../db.json";
 const Catalog = () => {
   const [events] = useState(data.events);
   return (
-    <div className="catalog">
+    <div className="events">
       <article className="heroCatalogDivision"></article>
-      <section className="events">
+      <section className="catalog">
         {events.map((event) => (
-          <div key={event.nombre} className="eventsCard">
+          <div key={event.nombre} className="catalogCard">
             <img
               className="eventImage"
               src={
