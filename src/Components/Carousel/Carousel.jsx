@@ -4,10 +4,10 @@ import "./Carousel.css";
 
 const Carousel = ({ category, events }) => {
   return (
-    <div>
+    <div >
       <h2>{category}</h2>
-      <div className="events">
-        <section className="catalog" key={events.category}>
+      <div className="events" key={events.id}>
+        <section className="catalog" >
           {events.map((event) => (
             <CarouselCard event={event} />
           ))}
