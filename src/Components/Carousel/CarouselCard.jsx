@@ -7,7 +7,7 @@ function CarouselCard({ event }) {
       <img
         className="eventImage"
         src={
-          event.imagenes && event.imagenes.length > 0 ? event.imagenes[0] : ""
+          event.picture && event.picture.length > 0 ? event.picture[0] : ""
         }
         alt={event.name}
       />
