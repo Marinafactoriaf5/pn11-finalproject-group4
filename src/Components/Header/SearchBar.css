@@ -42,5 +42,5 @@
     width: 30vw;
 }
 .searchBar:hover span{
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
 }

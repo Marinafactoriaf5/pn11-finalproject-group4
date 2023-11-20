@@ -24,7 +24,7 @@ const Catalog = () => {
   );
 
   return (
-    <div>
+    <div className="catalog">
       <Carousel category="Top Rated Events" events={topRatedEvents} />
       <Carousel category="Day Events" events={dayEvents} />
       <Carousel category="Night Events" events={nightEvents} />
