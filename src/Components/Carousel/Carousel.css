@@ -1,0 +1,23 @@
+.categories {
+    padding: 1%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 2%;
+}
+
+.categoriesCarouselTitle {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 1%;
+}
+
+.categoriesCarousel {
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 100%;
+}

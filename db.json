@@ -2,7 +2,7 @@
     "events": [
         {   "id": 1,
             "name": "Creación equipo emprendedoras conscientes Eco",
-            "picture": "https://secure.meetupstatic.com/photos/event/e/9/4/8/event_516119720.webp?w=384",
+            "picture": ["https://secure.meetupstatic.com/photos/event/e/9/4/8/event_516119720.webp?w=384"],
             "schedule": {
                 "day": "Sabado, 18 de Noviembre de 2023",
                 "time": "11:30"
