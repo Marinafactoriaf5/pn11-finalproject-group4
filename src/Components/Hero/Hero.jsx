@@ -6,8 +6,8 @@ function Hero() {
     <div className="bodyHero">
       <img className="imgHero" src={HeroPicture}></img>
       <div className="textHero">
-        <h1 className="textHero1">Do you like adventures?</h1>
-        <h3 className="textHero2">Discover the best events near you</h3>
+        <h1 className="textHero1">Te gustan las aventuras?</h1>
+        <h3 className="textHero2">Descubre los eventos que pasan cerca tuyo</h3>
       </div>
     </div>
   );
