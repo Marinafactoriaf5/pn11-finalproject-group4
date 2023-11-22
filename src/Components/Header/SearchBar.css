@@ -1,12 +1,14 @@
 .searchBar {
     width: 100%;
     padding: 0%;
+    display: flex;
+    justify-content: end;
     transition: width 0.7s ease;
   }
   
   .searchBar.active input {
     
-    width: 30vw;
+    width: 20vw;
   }
   
   .searchInputWrapper {
@@ -37,12 +39,12 @@
     width: 40px;
     height: 40px;
     position: absolute;
-    top: -50%;
-    right: 8%;
+    top: -54%;
+    right: 2.5%;
     cursor: pointer;
     transition: all 0.5s ease;
     transform: rotate(0deg);
-    background-color: rgba(255, 255, 255, 0.40);
+    background-color: #022439;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -50,7 +52,7 @@
   }
   
   .searchBar.active span {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
   
  
