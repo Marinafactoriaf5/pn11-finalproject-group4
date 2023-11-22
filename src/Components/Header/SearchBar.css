@@ -1,7 +1,5 @@
 .searchBar {
     width: 100%;
-    margin-left: 50%;
-    margin-top: -50px;
     padding: 0%;
     transition: width 0.7s ease;
   }
@@ -26,7 +24,7 @@
     color: white;
     border: none;
     font-size: 16px;
-    padding-left: 4%;
+    padding-left: 1%;
     padding-right: 40px;
     transition: all 0.7s ease;
   }

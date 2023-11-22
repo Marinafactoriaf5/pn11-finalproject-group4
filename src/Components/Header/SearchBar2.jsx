@@ -1,16 +1,35 @@
-import React from 'react'
+import './searchBar.css'
 import SearchBtn from "../../assets/searchBtn.svg";
-
-
+import React, { useState, useRef, useEffect } from 'react';
 
 
 function SearchBar2({ handleSearch }) {
+    const [searchActive, setSearchActive] = useState(false);
+    const searchInputRef = useRef();
+
+    const toggleSearch = () => {
+        setSearchActive(!searchActive);
+      };
+    
+      const handleClickOutside = (event) => {
+        if (searchInputRef.current && !searchInputRef.current.contains(event.target)) {
+          setSearchActive(false);
+        }
+      };
+    
+      useEffect(() => {
+        document.addEventListener("mousedown", handleClickOutside);
+    
+        return () => {
+          document.removeEventListener("mousedown", handleClickOutside);
+        };
+      }, []); // Funcion de barra dinámica
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
     };
     return (
-        <div >
+        <div className={`searchBar ${searchActive ? "active" : ""}`}>
             <form >
                 <label htmlFor="searchInput" className="searchInputWrapper">
                     <input
@@ -22,15 +41,11 @@ function SearchBar2({ handleSearch }) {
                         placeholder="Type to search"
                         onChange={handleSearch}
                     />
-                    <span className="searchIcon" >
+                    <span className="searchIcon" onClick={toggleSearch} >
                         <img src={SearchBtn} alt="Search" />
                     </span>
                 </label>
             </form>
-            {/* <h2>Search Results</h2>
-            {searchedEvents.map((event) => (
-                <CarouselCard event={event} />
-            ))} */}
         </div>
     )
 }

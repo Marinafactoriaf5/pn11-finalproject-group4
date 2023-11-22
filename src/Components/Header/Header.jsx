@@ -10,7 +10,7 @@ function Header() {
     <header>
       <img src={Logo} className="logo" alt="VIVID" />
       <a className="navLogin" href="loginPage">LoginPage</a>
-      <SearchBar />
+      
     </header>
   );
 }
