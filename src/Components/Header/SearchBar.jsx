@@ -3,7 +3,7 @@ import SearchBtn from "../../assets/searchBtn.svg";
 import React, { useState, useRef, useEffect } from 'react';
 
 
-function SearchBar2({ handleSearch }) {
+function SearchBar({ handleSearch }) {
     const [searchActive, setSearchActive] = useState(false);
     const searchInputRef = useRef();
 
@@ -50,4 +50,4 @@ function SearchBar2({ handleSearch }) {
     )
 }
 
-export default SearchBar2
+export default SearchBar;

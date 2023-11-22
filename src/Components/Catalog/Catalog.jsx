@@ -1,7 +1,7 @@
 import "./Catalog.css";
 import React, { useState, useEffect } from "react";
 import Carousel from "../Carousel/Carousel";
-import SearchBar2 from "../Header/SearchBar2";
+import SearchBar from "../Header/SearchBar";
 
 const Catalog = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -42,7 +42,7 @@ const Catalog = () => {
   if (searchTerm !== "") {
     return (
       <div className="catalog">
-        <SearchBar2 handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
+        <SearchBar handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
         <Carousel category="Search Results" events={findedEvents} />
         <Carousel category="Top Rated Events" events={topRatedEvents} />
         <Carousel category="Day Events" events={dayEvents} />
@@ -53,7 +53,7 @@ const Catalog = () => {
   else {
     return (
       <div className="catalog">
-        <SearchBar2 handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
+        <SearchBar handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
         {/* <Carousel category="Search Results" events={findedEvents} /> */}
         <Carousel category="Top Rated Events" events={topRatedEvents} />
         <Carousel category="Day Events" events={dayEvents} />
