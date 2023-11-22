@@ -5,11 +5,13 @@
   }
   
   .searchBar.active input {
+    
     width: 30vw;
   }
   
   .searchInputWrapper {
     position: relative;
+   
   }
   
   .searchInput {
@@ -19,31 +21,38 @@
     box-sizing: border-box;
     height: 40px;
     border-radius: 30px;
-    background: rgba(255, 255, 255, 0.40);
+    background: rgba(255, 255, 255, 0.50);
     font-weight: 300;
     color: white;
     border: none;
     font-size: 16px;
-    padding-left: 1%;
-    padding-right: 40px;
     transition: all 0.7s ease;
   }
   
   .searchInput::placeholder {
-    color: #9a9a9a;
+    color: #6a6a6a;
   }
   
   .searchIcon {
+    width: 40px;
+    height: 40px;
     position: absolute;
-    top: -20%;
-    right: 15px;
+    top: -50%;
+    right: 8%;
     cursor: pointer;
     transition: all 0.5s ease;
     transform: rotate(0deg);
+    background-color: rgba(255, 255, 255, 0.40);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .searchBar.active span {
     transform: rotate(360deg);
   }
+  
+ 
   
   

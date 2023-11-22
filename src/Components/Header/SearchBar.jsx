@@ -1,39 +1,38 @@
-import './searchBar.css'
+import './searchBar.css';
 import SearchBtn from "../../assets/searchBtn.svg";
 import React, { useState, useRef, useEffect } from 'react';
 
-
 function SearchBar({ handleSearch }) {
     const [searchActive, setSearchActive] = useState(false);
-    const searchInputRef = useRef();
+    const searchBarRef = useRef();
 
     const toggleSearch = () => {
         setSearchActive(!searchActive);
-      };
-    
-      const handleClickOutside = (event) => {
-        if (searchInputRef.current && !searchInputRef.current.contains(event.target)) {
-          setSearchActive(false);
+    };
+
+    const handleClickOutside = (event) => {
+        if (searchBarRef.current && !searchBarRef.current.contains(event.target)) {
+            setSearchActive(false);
         }
-      };
-    
-      useEffect(() => {
+    };
+
+    useEffect(() => {
         document.addEventListener("mousedown", handleClickOutside);
-    
+
         return () => {
-          document.removeEventListener("mousedown", handleClickOutside);
+            document.removeEventListener("mousedown", handleClickOutside);
         };
-      }, []); // Funcion de barra dinámica
+    }, []);
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
     };
+
     return (
-        <div className={`searchBar ${searchActive ? "active" : ""}`}>
-            <form >
+        <div ref={searchBarRef} className={`searchBar ${searchActive ? "active" : ""}`}>
+            <form onSubmit={handleFormSubmit}>
                 <label htmlFor="searchInput" className="searchInputWrapper">
                     <input
-                        onSubmit={handleFormSubmit}
                         id="searchInput"
                         className="searchInput"
                         type="text"
@@ -42,7 +41,7 @@ function SearchBar({ handleSearch }) {
                         onChange={handleSearch}
                     />
                     <span className="searchIcon" onClick={toggleSearch} >
-                        <img src={SearchBtn} alt="Search" />
+                        <img src={SearchBtn} className="searchImg" alt="Search" />
                     </span>
                 </label>
             </form>
