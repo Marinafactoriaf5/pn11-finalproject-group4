@@ -9,6 +9,7 @@ export function Router() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="loginPage" element={<LoginPage />} />
+      <Route path="/event/:id" element={<EventPage />} />
     </Routes>
   );
 }

@@ -2,6 +2,7 @@
     "events": [
         {   "id": 1,
             "name": "Creación equipo emprendedoras conscientes Eco",
+            "tags": ["Emprendedores", "Conciencia Eco", "Equipo", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/e/9/4/8/event_516119720.webp?w=384"],
             "schedule": {
                 "day": "Sabado, 18 de Noviembre de 2023",
@@ -25,6 +26,7 @@
         },
         {   "id": 2,
             "name": "Las magias de Túnez - Circuito en grupo reducido",
+            "tags":["Circuito", "Grupo reducido", "Magia", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516002615/272x153.webp?w=384"],
             "schedule": {
                 "day": "Viernes, 8 de Diciembre de 2023",
@@ -39,6 +41,7 @@
         {
             "id": 3,
             "name": "The Samanà Birthday Party",
+            "tags":["Celebraciones", "Fiesta", "Familiar"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516869972/272x153.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 26 de Noviembre de 2023",
@@ -52,6 +55,7 @@
         },
         {   "id": 4,
             "name": "WebPerf Workshop in Adevinta with Joan Leon",
+            "tags": ["Taller", "Aprendizaje", "Noche", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/228741072/222x125.webp?w=256"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
@@ -65,6 +69,7 @@
         },
         {   "id":5,
             "name": "DREAMLIFE STARTUP AWARD",
+            "tags": ["Startup", "Premio", "Emprendimiento", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/517184261/272x153.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 30 de Noviembre de 2023",
@@ -78,6 +83,7 @@
         },
         {   "id":6,
             "name": "Introducció a la sopa de partícules del model estàndard de la física",
+            "tags": ["Aprendizaje", "Ciencia", "Emprendimiento", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/514674724/272x153.webp?w=384"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
@@ -91,6 +97,7 @@
         },
         {   "id":7,
             "name": "Goddess Gathering Sensual Journey",
+            "tags": ["Espiritual", "Grupal", "Noche", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/512779185/272x153.webp?w=384"],
             "schedule": {
                 "day": "Viernes, 1 de Diciembre de 2023",
@@ -104,6 +111,7 @@
         },
         {   "id": 8,
             "name": "Club de lectura - Cometierra, de Dolores Reyes",
+            "tags": ["Aprendizaje", "Grupal", "Lectura", "Noche"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/515694584/272x153.webp?w=384"],
             "schedule": {
                 "day": "Viernes, 24 de Noviembre de 2023",
@@ -117,6 +125,7 @@
         },
         {   "id": 9,
             "name": "Comment investir dans l'Immobilier Locatif ?",
+            "tags": ["Bienes Raíces", "Inversión", "Noche", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/514159693/272x153.webp?w=384"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
@@ -130,6 +139,7 @@
         },
         {   "id":10,
             "name": "ZOOM : Toulouse Toastmasters Communication (En français)",
+            "tags": ["Idiomas", "Comunicación", "Noche", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/f/0/a/event_490013002.webp?w=384"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
@@ -143,6 +153,7 @@
         },
         {   "id":11,
             "name": "🥂2nd Tuesday Networking Drinks🥂: November edition",
+            "tags": ["Tragos", "Noche", "Gratis", "Grupal"],
             "picture": ["https://secure.meetupstatic.com/photos/event/7/4/7/9/600_512909817.webp?w=384"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
@@ -156,6 +167,7 @@
         },
         {   "id":12,
             "name": "Barcelona Casual Runners Weekly Meetup",
+            "tags": ["Tragos", "Día", "Gratis", "Grupal"],
             "picture": ["https://secure.meetupstatic.com/photos/event/4/7/5/7/600_501198263.webp?w=384"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
@@ -169,6 +181,7 @@
         },
         {   "id":13,
             "name": "Anything Else? Open Mic Night of Music, Spoken Word and Stories",
+            "tags": ["Music", "Night"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/9/9/d/600_503391613.webp?w=384"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
@@ -182,6 +195,7 @@
         },
         {   "id": 14,
             "name": "LA PAELLA DELS DIJOUS",
+            "tags": ["Gastronomía", "Evento", "Gratis", "Noche"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/2/e/c/600_516105804.webp?w=384"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
@@ -195,6 +209,7 @@
         },
         {   "id":15,
             "name": "II Conference of R and XIII Workshop for R Users",
+            "tags": ["Workshop", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/b/9/4/600_514968020.webp?w=384"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
@@ -208,6 +223,7 @@
         },
         {   "id":16,
             "name": "YOGA dinamico - Miércoles",
+            "tags": ["Yoga", "Salud", "Bienestar"],
             "picture": ["https://secure.meetupstatic.com/photos/event/5/d/6/0/600_501623904.webp?w=384"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
@@ -221,6 +237,7 @@
         },
         {   "id":17,
             "name": "Hatha Yoga en Badalona  🕉️ ",
+            "tags": ["Yoga", "Salud", "Bienestar"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/c/3/c/600_515512284.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
@@ -234,6 +251,7 @@
         },
         {   "id":18,
             "name": "MONTHLY WOMEN'S CIRCLE: Topic... Pleasure & Guilt",
+            "tags": ["Mujer", "Bienestar", "Social"],
             "picture": ["https://secure.meetupstatic.com/photos/event/5/b/6/4/600_514883396.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
@@ -247,6 +265,7 @@
         },
         {   "id":19,
             "name": "REAL CONNECTIONS. HEALING OUR RELASHIONSHIPS",
+            "tags": ["Social", "Grupal", "Noche"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/3/7/1/600_513110033.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
@@ -260,6 +279,7 @@
         },
         {   "id":20,
             "name": "Métricas UX: Entendiendo la relación entre usabilidad y negocio",
+            "tags": ["UX", "Negocio", "Desarrollo", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/5/2/f/600_516286383.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
@@ -273,6 +293,7 @@
         },
         {   "id":21,
             "name": "Marine enology. Comparison wine tasting",
+            "tags": ["Vino", "Degustación", "Noche"],
             "picture": ["https://secure.meetupstatic.com/photos/event/6/0/5/3/600_516024659.webp?w=384"],
             "schedule": {
                 "day": "Sábado, 18 de Noviembre de 2023",
@@ -286,6 +307,7 @@
         },
         {   "id":22,
             "name": "🍂 Colores de Otoño/Autumn- La Fageda d’en Jorda and the volcanes of la Garrotxa",
+            "tags": ["Otoño", "Senderismo", "Bienestar", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/2/a/4/d/600_492850829.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -299,6 +321,7 @@
         },
         {   "id":23,
             "name": "🍁🍁 FAGEDA MÁGICA GARROTXA & Ermita de Cuento de Hadas 🍁🍁 Senderismo Hiking🍁",
+            "tags": ["Senderismo", "Bienestar", "Mágico", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/2/e/1/d/600_516491805.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -312,6 +335,7 @@
         },
         {   "id":24,
             "name": "HORSE ROUTE - RUTA A CABALLO",
+            "tags": ["Ruta a Caballo", "Actividad Ecuestre", "Naturaleza", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/4/9/4/8/600_515598760.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -325,6 +349,7 @@
         },
         {   "id":25,
             "name": "Taller de Acroyoga en Familia",
+            "tags": ["Gratis", "Día", "Taller", "Familiar"],
             "picture": ["https://secure.meetupstatic.com/photos/event/6/8/e/1/600_492026849.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -338,6 +363,7 @@
         },
         {   "id":26,
             "name": "Debat: APUNTS DEL SUBSÒL (1864), de Fiódor Dostoïevski [PRESENCIAL!]",
+            "tags": ["Debate", "Aprendizaje", "Gratis", "Cultural"],
             "picture": ["https://secure.meetupstatic.com/photos/event/d/3/6/2/600_516474114.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -351,6 +377,7 @@
         },
         {   "id":27,
             "name": "Museo Marítimo",
+            "tags": ["Museo", "Aprendizaje", "Cultural"],
             "picture": ["https://secure.meetupstatic.com/photos/event/d/d/7/4/600_514556692.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -364,6 +391,7 @@
         },
         {   "id":28,
             "name": "Scrabble en família al Casal d'Alella",
+            "tags": ["Familiar", "Gratis", "Juegos"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/4/5/3/600_510346163.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -377,6 +405,7 @@
         },
         {   "id":29,
             "name": "Fusión Yin☯️Chi Kung en MAHA MA - la tristeza: un muro entre dos jardines",
+            "tags": ["Yoga", "Bienestar", "Naturaleza"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/6/0/5/600_516290693.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -390,6 +419,7 @@
         },
         {   "id":30,
             "name": "The Soul Kitchen: Concert + Jam Session + Dinner",
+            "tags": ["Cena", "Cocina", "Gastronomía", "Noche", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/1/a/9/6/600_516906806.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
