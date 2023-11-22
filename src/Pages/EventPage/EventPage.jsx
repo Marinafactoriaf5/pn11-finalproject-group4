@@ -10,7 +10,6 @@ function EventPage({params}) {
   const { id } = useParams();
   const eventPath = "event/" + id;
 
-  console.log(params)
 
   useEffect(() => {
     fetch("../../../db.json")
@@ -18,6 +17,9 @@ function EventPage({params}) {
       .then((data) => setEventData(data))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
+  const EventDescription = eventData.events.filter(
+    (event) => event.id === ""
+  );
   console.log(eventData);
 
   return (
