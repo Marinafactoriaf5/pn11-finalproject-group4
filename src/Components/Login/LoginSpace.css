@@ -10,13 +10,11 @@
 
 .logoLogin {
     width: 45%; 
-    background-color:     ;
 }
 
 .boxInput {
     width: 25%;
     height: 25%;
-    background-color:         ;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
