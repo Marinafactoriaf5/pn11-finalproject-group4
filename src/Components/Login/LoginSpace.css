@@ -1,0 +1,44 @@
+.bodyLogin {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+.logoLogin {
+    width: 45%; 
+    background-color:     ;
+}
+
+.boxInput {
+    width: 25%;
+    height: 25%;
+    background-color:         ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    height: 25%;
+    margin: 3%;
+    background-color: #022439;
+    border: 0px;
+    border-color: gray;
+    border-radius: 4px;
+    text-indent: 5%;
+    box-shadow: inset 0 0 0 1px grey;
+    color: white;
+
+}
+
+.buttonLogin {
+    height: 25%;
+    background-color: blue;
+    color: white;
+    margin: 3%;
+    border-radius: 4px;
+}
