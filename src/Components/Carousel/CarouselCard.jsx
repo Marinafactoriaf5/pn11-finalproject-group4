@@ -1,9 +1,10 @@
 import "./CarouselCard.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
-function CarouselCard({ event }) {
+function CarouselCard({ event, id}) {
   return (
-    <div key={event.id} className="catalogCard">
+    <Link to={`/event${id}`} key={event.id} className="catalogCard">
       <img
         className="eventImage"
         src={
@@ -15,7 +16,7 @@ function CarouselCard({ event }) {
         <h4 className="eventName">{event.name}</h4>
         <p className="price">{event.price}</p>
       </div>
-    </div>
+    </Link>
   );
 }
 
