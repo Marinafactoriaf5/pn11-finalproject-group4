@@ -12,7 +12,7 @@ const Catalog = () => {
       .then((response) => response.json())
       .then((data) => setEventData(data))
       .catch((error) => console.error("Error fetching data:", error));
-  }, [eventData]);
+  }, []);
 
   const handleInputChange = (event) => {
     handleSearch(event.target.value);
