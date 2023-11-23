@@ -40,6 +40,12 @@ function EventDescription() {
       <div className="eventData">
         <h1>{eventData.name}</h1>
         <img src={eventData.picture}/>
+        <p>{eventData.description}</p>
+        <p>{eventData.price}</p>
+        <p>{eventData.schedule.day}</p>
+        <p>{eventData.schedule.time}</p>
+        <p>{eventData.tags}</p>
+
       </div>
       <EventDescriptionMap />
     </div>
