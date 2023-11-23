@@ -1,0 +1,8 @@
+.eventBackground{
+    max-width: 100%;
+    width:100%;
+    opacity: 20%;
+    position: absolute;
+    z-index: -3;
+
+}
