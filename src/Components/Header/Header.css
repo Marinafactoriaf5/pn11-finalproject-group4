@@ -5,19 +5,33 @@ header {
   align-items: center;
   background: linear-gradient(0deg, rgba(2, 36, 57, 0.00) 0%, rgba(2, 36, 57, 0.50) 100%),
     linear-gradient(0deg, rgba(2, 36, 57, 0.00) 73.25%, rgba(2, 36, 57, 0.50) 120.14%, rgba(2, 36, 57, 0.50) 220.1%);
-  background-size: cover;
-  background-position: center;
-  position: fixed;
+  position: absolute;
   z-index: 10;
 
 }
 
 .logo {
-  width: 15%;
+  width: 40%;
   margin-top: -60px;
   margin-left: 3%;
 }
 
+
 .navLogin {
-  color: white;
+  width: 100%;
+  position: absolute;
+  top: 13%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-decoration: none;
+  color: #555;
+}
+
+.navLogin svg {
+  margin-right: 8px; /* Espacio entre el ícono y el texto */
+  font-size: 24px; /* Tamaño del ícono */
+  border-radius: 50%;
+  background-color: #eee; /* Color de fondo del círculo */
+  padding: 10px; /* Espaciado interno del círculo */
 }
