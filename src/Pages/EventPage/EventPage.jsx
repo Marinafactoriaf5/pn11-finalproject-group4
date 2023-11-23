@@ -6,12 +6,12 @@ import EventDescription from "../../Components/EventDescription/EventDescription
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-function EventPage({params}) {
+function EventPage() {
   const { id } = useParams();
-  const eventPath = "event/" + id;
+  
+  console.log (id);
 
-
-  useEffect(() => {
+ /*  useEffect(() => {
     fetch("../../../db.json")
       .then((response) => response.json())
       .then((data) => setEventData(data))
@@ -20,12 +20,12 @@ function EventPage({params}) {
   const EventDescription = eventData.events.filter(
     (event) => event.id === ""
   );
-  console.log(eventData);
+  console.log(eventData); */
 
-  return (
+  return  (
     <div>
       <Header />
-      <EventDescription event={eventData} />
+      <EventDescription event={id} />
     </div>
   );
 }
