@@ -19,6 +19,12 @@ function Filter() {
         <button className='filterBtn'>
         uva
         </button>
+        <button className='filterBtn'>
+        pera
+        </button>
+        <button className='filterBtn'>
+        piña
+        </button>
     </div>
   )
 }
