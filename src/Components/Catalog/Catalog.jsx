@@ -2,6 +2,7 @@ import "./Catalog.css";
 import React, { useState, useEffect } from "react";
 import Carousel from "../Carousel/Carousel";
 import SearchBar from "../Header/SearchBar";
+import Filter from "./Filter";
 
 const Catalog = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -42,6 +43,7 @@ const Catalog = () => {
   if (searchTerm !== "") {
     return (
       <div className="catalog">
+        <Filter/>
         <SearchBar handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
         <Carousel category="Search Results" events={findedEvents} />
         <Carousel category="Top Rated Events" events={topRatedEvents} />
@@ -53,6 +55,7 @@ const Catalog = () => {
   else {
     return (
       <div className="catalog">
+        <Filter/>
         <SearchBar handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
         {/* <Carousel category="Search Results" events={findedEvents} /> */}
         <Carousel category="Top Rated Events" events={topRatedEvents} />
