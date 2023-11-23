@@ -2,10 +2,10 @@
     position: absolute;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     top: 0.5%;
-    right: 5%;
-    gap: 2%;
+    gap: 1%;
+    padding: 0 1% 1% 2.8%;
 }
 .filterBtn{
     position: relative;

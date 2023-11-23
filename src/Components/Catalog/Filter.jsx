@@ -13,18 +13,6 @@ function Filter() {
         <button className='filterBtn'>
         sandia
         </button>
-        <button className='filterBtn'>
-        mora
-        </button>
-        <button className='filterBtn'>
-        uva
-        </button>
-        <button className='filterBtn'>
-        pera
-        </button>
-        <button className='filterBtn'>
-        piña
-        </button>
     </div>
   )
 }
