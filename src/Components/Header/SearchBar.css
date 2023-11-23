@@ -1,15 +1,18 @@
 .searchBar {
-    width: 100%;
+    width: 97%;
     padding: 0%;
     display: flex;
     justify-content: end;
     transition: width 0.7s ease;
+   
+    
     
   }
   
   .searchBar.active input {
-    
+    background: rgba(255, 255, 255, 0.50);
     width: 20vw;
+    box-sizing: content-box;
   }
   
   .searchInputWrapper {
@@ -24,16 +27,15 @@
     box-sizing: border-box;
     height: 40px;
     border-radius: 30px;
-    background: rgba(255, 255, 255, 0.50);
+    background-color: transparent;
     font-weight: 300;
     color: white;
-    border: none;
     font-size: 16px;
     transition: all 0.7s ease;
   }
   
   .searchInput::placeholder {
-    color: #6a6a6a;
+    color: #5a5a5a;
   }
   
   .searchIcon {
@@ -45,7 +47,7 @@
     cursor: pointer;
     transition: all 0.7s ease;
     transform: rotate(0deg);
-    background-color: #022439;
+    background-color: rgba(255, 255, 255, 0.50);
     border-radius: 50%;
     display: flex;
     align-items: center;
