@@ -9,6 +9,7 @@
     margin: 2% 0 0 2%;
     position: relative;
     cursor: pointer;
+    text-decoration: none;
     transition: 0.4s ease-in-out;
 }
 .catalogCard:hover {
@@ -24,6 +25,7 @@
 }
 .eventText {
     padding: 10% 6% 10% 10%;
+    color: black;
     display: flex;
     flex-direction: column;
     gap: 0.7vw;
