@@ -1,7 +1,7 @@
 {
     "events": [
         {   "id": 1,
-            "name": "Creación equipo emprendedoras conscientes Eco",
+            "name": "Fiesta de Risas y Bailes",
             "tags": ["Emprendedores", "Conciencia Eco", "Equipo", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/e/9/4/8/event_516119720.webp?w=384"],
             "schedule": {
@@ -12,20 +12,10 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": {
-                "iframe": {
-                  "@src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.5364122374326!2d2.1559991767396904!3d41.384155771300286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2896d5814f3%3A0xa6160f72fc542790!2sC%2F%20de%20la%20Diputaci%C3%B3%2C%20157%2C%2008011%20Barcelona!5e0!3m2!1ses!2ses!4v1700129245833!5m2!1ses!2ses",
-                  "@width": "400",
-                  "@height": "300",
-                  "@style": "border:0;",
-                  "@allowfullscreen": "",
-                  "@loading": "lazy",
-                  "@referrerpolicy": "no-referrer-when-downgrade"
-                }
-              }
+            "address": ""
         },
         {   "id": 2,
-            "name": "Las magias de Túnez - Circuito en grupo reducido",
+            "name": "Las magias de Túnez",
             "tags":["Circuito", "Grupo reducido", "Magia", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516002615/272x153.webp?w=384"],
             "schedule": {
@@ -40,7 +30,7 @@
         },
         {
             "id": 3,
-            "name": "The Samanà Birthday Party",
+            "name": "Aventuras Cómicas: Un Show de Stand-Up",
             "tags":["Celebraciones", "Fiesta", "Familiar"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516869972/272x153.webp?w=384"],
             "schedule": {
@@ -54,8 +44,8 @@
             "address": "ONLINE"
         },
         {   "id": 4,
-            "name": "WebPerf Workshop in Adevinta with Joan Leon",
-            "tags": ["Taller", "Aprendizaje", "Noche", "Gratis"],
+            "name": "Retro Fiesta: Viaje al Pasado Divertido",
+            "tags": ["Fiesta", "Retro", "Noche", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/228741072/222x125.webp?w=256"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
@@ -68,8 +58,8 @@
             "address":"ONLINE"
         },
         {   "id":5,
-            "name": "DREAMLIFE STARTUP AWARD",
-            "tags": ["Startup", "Premio", "Emprendimiento", "Gratis"],
+            "name": "Carrera de Carritos Locos",
+            "tags": ["Aventura", "Concurso", "Competición", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/517184261/272x153.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 30 de Noviembre de 2023",
@@ -82,8 +72,8 @@
             "address": "ONLINE"
         },
         {   "id":6,
-            "name": "Introducció a la sopa de partícules del model estàndard de la física",
-            "tags": ["Aprendizaje", "Ciencia", "Emprendimiento", "Gratis"],
+            "name": "Festival de Burbujas y Risas",
+            "tags": ["Aprendizaje", "Ciencia", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/514674724/272x153.webp?w=384"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
@@ -96,8 +86,8 @@
             "address": "ONLINE"
         },
         {   "id":7,
-            "name": "Goddess Gathering Sensual Journey",
-            "tags": ["Espiritual", "Grupal", "Noche", "Gratis"],
+            "name": "Noche de Juegos Absurdos",
+            "tags": ["Juegos", "Grupal", "Noche", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/512779185/272x153.webp?w=384"],
             "schedule": {
                 "day": "Viernes, 1 de Diciembre de 2023",
@@ -110,7 +100,7 @@
             "address": "ONLINE"
         },
         {   "id": 8,
-            "name": "Club de lectura - Cometierra, de Dolores Reyes",
+            "name": "Club de lectura-Cometierra, de Dolores Reyes",
             "tags": ["Aprendizaje", "Grupal", "Lectura", "Noche"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/515694584/272x153.webp?w=384"],
             "schedule": {
@@ -124,8 +114,8 @@
             "address": "ONLINE"
         },
         {   "id": 9,
-            "name": "Comment investir dans l'Immobilier Locatif ?",
-            "tags": ["Bienes Raíces", "Inversión", "Noche", "Gratis"],
+            "name": "Explosión de Risas: Comedia en Vivo",
+            "tags": ["Espectáculo", "Comedia", "Noche", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/514159693/272x153.webp?w=384"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
@@ -138,8 +128,8 @@
             "address": "ONLINE"
         },
         {   "id":10,
-            "name": "ZOOM : Toulouse Toastmasters Communication (En français)",
-            "tags": ["Idiomas", "Comunicación", "Noche", "Gratis"],
+            "name": "Fiesta de Disfraces Ridículos",
+            "tags": ["Fiesta", "Disfraces", "Noche", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/f/0/a/event_490013002.webp?w=384"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
@@ -152,7 +142,7 @@
             "address": "ONLINE"
         },
         {   "id":11,
-            "name": "🥂2nd Tuesday Networking Drinks🥂: November edition",
+            "name": "Maratón de Películas Cómicas",
             "tags": ["Tragos", "Noche", "Gratis", "Grupal"],
             "picture": ["https://secure.meetupstatic.com/photos/event/7/4/7/9/600_512909817.webp?w=384"],
             "schedule": {
@@ -166,7 +156,7 @@
             "address": "ONLINE"
         },
         {   "id":12,
-            "name": "Barcelona Casual Runners Weekly Meetup",
+            "name": "Desafío de Baile Ridículo",
             "tags": ["Tragos", "Día", "Gratis", "Grupal"],
             "picture": ["https://secure.meetupstatic.com/photos/event/4/7/5/7/600_501198263.webp?w=384"],
             "schedule": {
@@ -180,7 +170,7 @@
             "address": "ONLINE"
         },
         {   "id":13,
-            "name": "Anything Else? Open Mic Night of Music, Spoken Word and Stories",
+            "name": "Karaoke del Caos",
             "tags": ["Music", "Night"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/9/9/d/600_503391613.webp?w=384"],
             "schedule": {
@@ -194,7 +184,7 @@
             "address": "ONLINE"
         },
         {   "id": 14,
-            "name": "LA PAELLA DELS DIJOUS",
+            "name": "Fiesta de Pijamas a lo Grande",
             "tags": ["Gastronomía", "Evento", "Gratis", "Noche"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/2/e/c/600_516105804.webp?w=384"],
             "schedule": {
@@ -208,8 +198,8 @@
             "address": "ONLINE"
         },
         {   "id":15,
-            "name": "II Conference of R and XIII Workshop for R Users",
-            "tags": ["Workshop", "Gratis", "Día"],
+            "name": "Caza del Tesoro Absurda",
+            "tags": ["Juego", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/b/9/4/600_514968020.webp?w=384"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
@@ -222,7 +212,7 @@
             "address": "ONLINE"
         },
         {   "id":16,
-            "name": "YOGA dinamico - Miércoles",
+            "name": "Yoga dinámico",
             "tags": ["Yoga", "Salud", "Bienestar"],
             "picture": ["https://secure.meetupstatic.com/photos/event/5/d/6/0/600_501623904.webp?w=384"],
             "schedule": {
@@ -236,7 +226,7 @@
             "address": "ONLINE"
         },
         {   "id":17,
-            "name": "Hatha Yoga en Badalona  🕉️ ",
+            "name": "Hatha Yoga en Badalona",
             "tags": ["Yoga", "Salud", "Bienestar"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/c/3/c/600_515512284.webp?w=384"],
             "schedule": {
@@ -250,8 +240,8 @@
             "address": "ONLINE"
         },
         {   "id":18,
-            "name": "MONTHLY WOMEN'S CIRCLE: Topic... Pleasure & Guilt",
-            "tags": ["Mujer", "Bienestar", "Social"],
+            "name": "Concurso de Chistes Locos",
+            "tags": ["Comedia", "Concurso", "Social"],
             "picture": ["https://secure.meetupstatic.com/photos/event/5/b/6/4/600_514883396.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
@@ -264,7 +254,7 @@
             "address": "ONLINE"
         },
         {   "id":19,
-            "name": "REAL CONNECTIONS. HEALING OUR RELASHIONSHIPS",
+            "name": "Noche de Magia y Payasadas",
             "tags": ["Social", "Grupal", "Noche"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/3/7/1/600_513110033.webp?w=384"],
             "schedule": {
@@ -278,8 +268,8 @@
             "address": "ONLINE"
         },
         {   "id":20,
-            "name": "Métricas UX: Entendiendo la relación entre usabilidad y negocio",
-            "tags": ["UX", "Negocio", "Desarrollo", "Gratis", "Día"],
+            "name": "Batalla de Globos de Agua",
+            "tags": ["Diversión", "Desarrollo", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/5/2/f/600_516286383.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
@@ -292,8 +282,8 @@
             "address": "ONLINE"
         },
         {   "id":21,
-            "name": "Marine enology. Comparison wine tasting",
-            "tags": ["Vino", "Degustación", "Noche"],
+            "name": "Festival de Comida Exótica y Divertida",
+            "tags": ["Comida", "Degustación", "Noche"],
             "picture": ["https://secure.meetupstatic.com/photos/event/6/0/5/3/600_516024659.webp?w=384"],
             "schedule": {
                 "day": "Sábado, 18 de Noviembre de 2023",
@@ -306,8 +296,8 @@
             "address": "ONLINE"
         },
         {   "id":22,
-            "name": "🍂 Colores de Otoño/Autumn- La Fageda d’en Jorda and the volcanes of la Garrotxa",
-            "tags": ["Otoño", "Senderismo", "Bienestar", "Gratis", "Día"],
+            "name": "Tour de Risa: Stand-Up en la Ciudad",
+            "tags": ["Comedia", "Pasear", "Bienestar", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/2/a/4/d/600_492850829.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -320,8 +310,8 @@
             "address": "ONLINE"
         },
         {   "id":23,
-            "name": "🍁🍁 FAGEDA MÁGICA GARROTXA & Ermita de Cuento de Hadas 🍁🍁 Senderismo Hiking🍁",
-            "tags": ["Senderismo", "Bienestar", "Mágico", "Gratis", "Día"],
+            "name": "Olimpiadas Ridículas: Competencias Absurdas",
+            "tags": ["Deporte", "Concurso", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/2/e/1/d/600_516491805.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -334,7 +324,7 @@
             "address": "ONLINE"
         },
         {   "id":24,
-            "name": "HORSE ROUTE - RUTA A CABALLO",
+            "name": "Ruta a Caballo",
             "tags": ["Ruta a Caballo", "Actividad Ecuestre", "Naturaleza", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/4/9/4/8/600_515598760.webp?w=384"],
             "schedule": {
@@ -362,8 +352,8 @@
             "address": "ONLINE"
         },
         {   "id":26,
-            "name": "Debat: APUNTS DEL SUBSÒL (1864), de Fiódor Dostoïevski [PRESENCIAL!]",
-            "tags": ["Debate", "Aprendizaje", "Gratis", "Cultural"],
+            "name": "Desfile de Moda Absurda",
+            "tags": ["Moda", "40 EUR", "Barcelona"],
             "picture": ["https://secure.meetupstatic.com/photos/event/d/3/6/2/600_516474114.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -390,7 +380,7 @@
             "address": "ONLINE"
         },
         {   "id":28,
-            "name": "Scrabble en família al Casal d'Alella",
+            "name": "Scrabble en família en el Casal de Alella",
             "tags": ["Familiar", "Gratis", "Juegos"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/4/5/3/600_510346163.webp?w=384"],
             "schedule": {
@@ -404,8 +394,8 @@
             "address": "ONLINE"
         },
         {   "id":29,
-            "name": "Fusión Yin☯️Chi Kung en MAHA MA - la tristeza: un muro entre dos jardines",
-            "tags": ["Yoga", "Bienestar", "Naturaleza"],
+            "name": "Show de Malabares y Locuras",
+            "tags": ["Malabares", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/6/0/5/600_516290693.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -418,7 +408,7 @@
             "address": "ONLINE"
         },
         {   "id":30,
-            "name": "The Soul Kitchen: Concert + Jam Session + Dinner",
+            "name": "Cena a la Luz de las Velas",
             "tags": ["Cena", "Cocina", "Gastronomía", "Noche", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/1/a/9/6/600_516906806.webp?w=384"],
             "schedule": {
