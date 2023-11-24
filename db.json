@@ -1,4 +1,11 @@
 {
+    "users":[
+        {   
+            "id": 1 ,
+            "mail": "manolo@gmail.com",
+            "password": "12345678"
+        }
+    ],
     "events": [
         {   "id": 1,
             "name": "Fiesta de Risas y Bailes",

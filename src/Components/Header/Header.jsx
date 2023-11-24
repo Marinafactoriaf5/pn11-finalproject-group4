@@ -11,7 +11,7 @@ function Header() {
   return (
     <header>
        <Logo/>
-      <a className="navLogin" href="loginPage">
+      <a className="navLogin" href="/loginPage">
       <FontAwesomeIcon icon={faUser} />
       {/* {isLoggedIn ? 'Logout' : 'Login'} */}
     </a>
