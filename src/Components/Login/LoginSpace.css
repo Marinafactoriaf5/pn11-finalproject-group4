@@ -1,3 +1,16 @@
+body{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+
+    background-image: url(/src/assets/hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
 .bodyLogin {
     position: absolute;
     display: flex;
@@ -6,7 +19,6 @@
     align-items: center;
     width: 100%;
     height: 80%;
-    background-image: image();
     
 }
 

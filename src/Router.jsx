@@ -7,8 +7,8 @@ import EventPage from "./Pages/EventPage/EventPage"
 export function Router() {
   return (
     <Routes>
-      <Route path="/" element={<LoginPage />} />
-      <Route path="homePage" element={<HomePage />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/login" element={<LoginPage />} />
       <Route path="/event/:id" element={<EventPage />} />
     </Routes>
   );

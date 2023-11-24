@@ -1,11 +1,10 @@
 import "./LoginSpace.css";
 import Logo from "../../assets/logo.png";
-import HeroPicture from "../../assets/hero.jpeg";
+
 
 function LoginSpace() {
     return (
         <div className="bodyLogin">
-            <img  src={HeroPicture}></img>
             <img className="logoLogin" src={Logo} alt="logo" />
             <div className="boxInput">
                 <input type="text" placeholder="Usuario"/>
@@ -17,7 +16,25 @@ function LoginSpace() {
 }
 
 
+//import { useState, useEffect, createElement } from "react";
+//import { useNavigate } from "react-router-dom";
 
+//function showAlertMessage(message, parentEl){
+//
+//function FormLogin({adminUsers}) {
+//    const localStorage = window.localStorage;
+//    const navigate = useNavigate();
+//    const [isLogged, setIsLogged] = useState(flase);
+
+//    useEffect(( ) => {
+//        validateUser();
+//        if(isLogged){
+//            navigate('/dashboard');
+//        }
+//    }, []);
+
+
+//}
 
 
 
@@ -25,3 +42,6 @@ function LoginSpace() {
 
 
 export default LoginSpace;
+
+
+
