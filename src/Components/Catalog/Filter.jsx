@@ -5,13 +5,13 @@ function Filter() {
   return (
     <div className='filterDiv'>
         <button className='filterBtn'>
-        mango
+        Conciertos
         </button>
         <button className='filterBtn'>
-        fresa
+        Montañismo
         </button>
         <button className='filterBtn'>
-        sandia
+        Senderismo
         </button>
     </div>
   )
