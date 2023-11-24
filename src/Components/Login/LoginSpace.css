@@ -26,11 +26,10 @@
     backdrop-filter: blur(1px);
 
 }
-
-.logoLogin {
-    margin-left: 50%;
-    width: 100%;
-
+.logoImage{
+    margin-left: 22%;
+    width: 50%;
+    
 }
 
 .pointer {

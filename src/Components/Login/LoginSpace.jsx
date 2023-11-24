@@ -1,5 +1,5 @@
 import "./LoginSpace.css";
-import Logo from "../Header/logo";
+import Logo from "../../assets/Logo.png";
 import { useState } from "react";
 
 const LoginSpace = () => {
@@ -8,18 +8,18 @@ const LoginSpace = () => {
     return (
 
         <div className="bodyLogin">
-            <div className="logoLogin">
-                <Logo />
-            </div>
+            <a href="/" className="logoLink">
+                <img src={Logo} alt="Logo"  className="logoImage"/>
+            </a>
             <div className="bodySquare">
                 <div className="bodySquareDiv">
                     <div className="form-floating">
-                        <label htmlFor="userid" >Mail</label>
-                        <input type="text" className="userNameInput" placeholder="mail" id="userid" required />
-                        
+                        <label htmlFor="userid" >Correo Electrónico</label>
+                        <input type="text" className="userNameInput" placeholder="correo@ejemplo.com" id="userid" required />
+
                     </div>
                     <div className="form-floating mt-3">
-                        <label htmlFor="password" >Password</label>
+                        <label htmlFor="password" >Contraseña</label>
                         <div className="position-absolute pointer pwd-icon" onClick={() => setShowPwd(!showPwd)}>
                             {showPwd ? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height={"1.5rem"}>
                                 <path d="M12 15a3 3 0 100-6 3 3 0 000 6z" />
@@ -30,13 +30,13 @@ const LoginSpace = () => {
                                 <path d="M6.75 12c0-.619.107-1.213.304-1.764l-3.1-3.1a11.25 11.25 0 00-2.63 4.31c-.12.362-.12.752 0 1.114 1.489 4.467 5.704 7.69 10.675 7.69 1.5 0 2.933-.294 4.242-.827l-2.477-2.477A5.25 5.25 0 016.75 12z" />
                             </svg>}
                         </div>
-                        <input type={showPwd ? "text" : "password"} className="passwordInput" placeholder="password" id="password" required />  
+                        <input type={showPwd ? "text" : "password"} className="passwordInput" placeholder="1234ABCD" id="password" required />
                     </div>
                     <div className="d-flex justify-content-end">
-                        <p className="d-inline-block m-0 pe-2 pt-2 fst-italic fw-semibold pointer forgot-text">Forgot Password?</p>
+                        <p className="d-inline-block m-0 pe-2 pt-2 fst-italic fw-semibold pointer forgot-text">¿Olvidaste tu contraseña?</p>
                     </div>
                     <div className="px-5">
-                        <button className="text-white btn-purple mt-3 text-center py-2 fw-semibold fs-4 rounded-3 w-100 border border-4 border-white shadow">Login</button>
+                        <button className="text-white btn-purple mt-3 text-center py-2 fw-semibold fs-4 rounded-3 w-100 border border-4 border-white shadow">Iniciar Sesión</button>
                     </div>
                 </div>
             </div>
