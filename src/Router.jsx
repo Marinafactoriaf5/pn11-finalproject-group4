@@ -8,8 +8,7 @@ export function Router() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="loginPage" element={<LoginPage />} />
-      <Route path="/event/:id" element={<EventPage />} />
+      <Route path="/event" element={<EventPage />} />
     </Routes>
   );
 }
