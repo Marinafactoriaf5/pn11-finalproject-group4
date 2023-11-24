@@ -1,5 +1,6 @@
 import React from 'react'
 import Vivid from'../../assets/Logo.png'
+import "./Logo.css"
 
 function Logo() {
   return (

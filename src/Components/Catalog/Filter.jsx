@@ -13,6 +13,7 @@ function Filter() {
         <button className='filterBtn'>
         Senderismo
         </button>
+        
     </div>
   )
 }

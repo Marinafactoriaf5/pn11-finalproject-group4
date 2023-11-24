@@ -3,19 +3,11 @@ header {
   height: 20%;
   display: flex;
   align-items: center;
-  background: linear-gradient(0deg, rgba(2, 36, 57, 0.00) 0%, rgba(2, 36, 57, 0.50) 100%),
-    linear-gradient(0deg, rgba(2, 36, 57, 0.00) 73.25%, rgba(2, 36, 57, 0.50) 120.14%, rgba(2, 36, 57, 0.50) 220.1%);
-  position: absolute;
+  background: linear-gradient(180deg, rgba(1, 22, 35, 0.90) 0%, rgba(1, 22, 35, 0.80) 33.33%, rgba(1, 22, 35, 0.50) 66.67%, rgba(1, 22, 35, 0.00) 100%);
+  position: fixed;
   z-index: 10;
 
 }
-
-.logo {
-  width: 40%;
-  margin-top: -60px;
-  margin-left: 3%;
-}
-
 
 .navLogin {
   width: 100%;
@@ -26,12 +18,13 @@ header {
   align-items: center;
   text-decoration: none;
   color: #555;
+  margin-left: -3%;
 }
 
 .navLogin svg {
-  margin-right: 8px; /* Espacio entre el ícono y el texto */
-  font-size: 24px; /* Tamaño del ícono */
+  margin-right: 8px;
+  font-size: 24px; 
   border-radius: 50%;
-  background-color: #eee; /* Color de fondo del círculo */
-  padding: 10px; /* Espaciado interno del círculo */
+  background-color: #eee; 
+  padding: 10px; 
 }
