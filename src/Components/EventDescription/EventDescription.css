@@ -1,8 +1,83 @@
-.eventBackground{
-    max-width: 100%;
-    width:100%;
-    opacity: 20%;
+.eventBackground {
+    width: 100%;
+    height: 100%;
+    /* Altezza pari all'intera altezza della viewport */
+    background-size: cover;
+    background-position: center;
     position: absolute;
     z-index: -3;
+    opacity: 0.2;
+    /* Rivedere come farlo responsive, così si distorce troppo e nell'altro modo diventa troppo piccolo
+ */
+}
+
+
+.eventData {
+    position: absolute;
+    top: 15%;
+    justify-content: space-between;
+    margin: 0 5vw 5vw 5vw;
+}
+
+/* cose da chiedere: grandezze del logo: si riduce troppo secondo me, non riesco a lasciarlo proporzionale alla scritta, vorrei che lo spazio tra il titolo dell'evento, il logo e la linea fosse uguale, indipendentemente dalla grandezza della finestra */
+.eventTitle{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: clamp(20px, 3vw, 35px);
+    border-bottom: 2px solid #FFF;
+    padding-bottom: 2vw;
+    padding-top: 1vw;
 
 }
+
+.eventDay {
+    color: rgba(187, 218, 238, 0.891);
+    font-family: Roboto;
+    font-size: clamp(20px, 3vw, 35px);    
+    margin-top: 3vw;
+    padding: 0 1vw 1vw 0;
+
+}
+
+.eventTime {
+    color: rgba(187, 218, 238, 0.891);
+    font-family: Roboto;
+    font-size: clamp(20px, 3vw, 25px);
+    padding: 0 1vw 3vw 0;
+}
+
+.eventDescription h4 {
+    color: rgba(187, 218, 238, 0.891);
+    padding-bottom: 1vw;
+    font-size: clamp(18px, 3vw, 20px);
+} 
+
+.eventDescription {
+    color: white;
+    line-height: 1.5;
+    font-size: clamp(15px, 3vw, 20px);
+
+}
+
+.eventPrice {
+    color: rgba(187, 218, 238, 0.891);
+    font-family: Roboto;
+    font-size: clamp(20px, 3vw, 35px);
+    padding: 2vw;
+    position: absolute;
+    top: 10vw;
+    right: 5vw;
+    border-radius: 10px;
+    border: none;
+    background: rgba(109, 163, 196, 0.67);
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25); /* Aggiorna la shadow per l'effetto desiderato */
+    transition: box-shadow 0.3s ease; /* Aggiungi una transizione per un effetto più fluido */
+
+    /* Stili quando il mouse è sopra l'elemento */
+    &:hover {
+        box-shadow: 5px 4px 20px 0px rgba(0, 0, 0, 0.5); /* Cambia la shadow al passaggio del mouse */
+    }
+}
+
+
+/* modificherei il json affinché quando l'evento ha un prezzo appaia "buy for" oltre al prezzo, mentre quelli gratis rimangono invariati */

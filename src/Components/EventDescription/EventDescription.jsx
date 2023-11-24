@@ -37,13 +37,13 @@ function EventDescription() {
   return (
     <div>
       <EventDescriptionHero />
+      <img className="eventBackground" src={eventData.picture} />
       <div className="eventData">
-        <h1 className="eventName">{eventData.name}</h1>
-        <img className="eventBackground" src={eventData.picture} />
-        <p className="eventDescription">{eventData.description}</p>
-        <p className="eventPrice">{eventData.price}</p>
+        <h1 className="eventTitle">{eventData.name}</h1>
         <p className="eventDay">{eventData.schedule.day}</p>
         <p className="eventTime">{eventData.schedule.time}</p>
+        <p className="eventDescription"><h4>Descripción</h4>{eventData.description}</p>
+        <button className="eventPrice">{eventData.price}</button>
       </div>
       <EventDescriptionMap />
     </div>
