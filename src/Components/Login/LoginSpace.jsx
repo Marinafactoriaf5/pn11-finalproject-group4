@@ -1,16 +1,17 @@
 import "./LoginSpace.css";
 import Logo from "../../assets/logo.png";
+import HeroPicture from "../../assets/hero.jpeg";
 
 function LoginSpace() {
     return (
         <div className="bodyLogin">
+            <img  src={HeroPicture}></img>
             <img className="logoLogin" src={Logo} alt="logo" />
             <div className="boxInput">
-                <input type="text" placeholder="User Name-Usuario"/>
-                <input type="text" placeholder="Password-Contraseña"/>
-                <button className="buttonLogin">Log In - Iniciar Sesion</button>
+                <input type="text" placeholder="Usuario"/>
+                <input type="password" placeholder="Contraseña"/>
+                <a className="btn" href="http://localhost:5174/HomePage">Iniciar Sesion</a>
             </div>
-
         </div>
     )
 }
