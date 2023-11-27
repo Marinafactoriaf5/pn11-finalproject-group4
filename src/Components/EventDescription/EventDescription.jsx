@@ -1,5 +1,3 @@
-import EventDescriptionHero from "../EventDescription/EventDescriptionHero";
-import EventDescriptionMap from "../EventDescription/EventDescriptionMap";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./EventDescription.css";
@@ -36,16 +34,15 @@ function EventDescription() {
   }
   return (
     <div>
-      <EventDescriptionHero />
       <img className="eventBackground" src={eventData.picture} />
       <div className="eventData">
         <h1 className="eventTitle">{eventData.name}</h1>
+        <a className="eventAddress" href={eventData.map}>{eventData.address}</a>
         <p className="eventDay">{eventData.schedule.day}</p>
         <p className="eventTime">{eventData.schedule.time}</p>
         <p className="eventDescription"><h4>Descripción</h4>{eventData.description}</p>
         <button className="eventPrice">{eventData.price}</button>
       </div>
-      <EventDescriptionMap />
     </div>
   );
 }

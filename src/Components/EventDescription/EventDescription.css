@@ -24,7 +24,6 @@
     border-bottom: 2px solid #FFF;
     padding-bottom: 2vw;
     padding-top: 1vw;
-
 }
 
 .eventDay {
@@ -33,7 +32,6 @@
     font-size: clamp(20px, 3vw, 35px);    
     margin-top: 3vw;
     padding: 0 1vw 1vw 0;
-
 }
 
 .eventTime {
@@ -53,7 +51,6 @@
     color: white;
     line-height: 1.5;
     font-size: clamp(15px, 3vw, 20px);
-
 }
 
 .eventPrice {
@@ -72,6 +69,13 @@
     &:hover {
         box-shadow: 5px 4px 20px 0px rgba(0, 0, 0, 0.5); /* Cambia la shadow al passaggio del mouse */
     }
+}
+
+.eventAddress{
+    text-decoration: none;
+    color: rgba(187, 218, 238, 0.891);
+    font-family: Roboto;
+    margin: ;
 }
 
 
