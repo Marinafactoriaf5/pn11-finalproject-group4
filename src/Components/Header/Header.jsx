@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./Header.css";
-import Logo from "./logo";
+import Logo from "./Logo";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 
