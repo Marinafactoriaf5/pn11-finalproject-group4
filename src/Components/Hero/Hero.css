@@ -6,7 +6,7 @@
   overflow: hidden; /* Utilizar solo overflow en lugar de overflow-x y overflow-y */
   scroll-behavior: smooth;
   width: 100%;
-  height: 70vh;
+  height: 70%;
 }
 
 .imgHero {

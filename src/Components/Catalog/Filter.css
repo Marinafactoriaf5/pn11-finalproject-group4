@@ -1,6 +1,6 @@
 .filterDiv{
     position: absolute;
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: start;
     gap: 1%;
@@ -9,8 +9,8 @@
 }
 .filterBtn{
     position: relative;
-    width: 200px;
-    height: 40px;
+    padding: 0 2% 0 2%;
+    height: 35px;
     background-color: rgba(255, 255, 255, 0.30);
     border-radius: 10px;
     border: none;
