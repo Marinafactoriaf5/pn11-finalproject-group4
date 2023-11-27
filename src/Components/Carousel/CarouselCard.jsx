@@ -2,9 +2,9 @@ import "./CarouselCard.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-function CarouselCard({ event, id}) {
+function CarouselCard({ event }) {
   return (
-    <Link to={`/event${id}`} key={event.id} className="catalogCard">
+    <Link to={`/event/${event.id}`} key={event.id} className="catalogCard">
       <img
         className="eventImage"
         src={
