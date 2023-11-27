@@ -1,4 +1,4 @@
-import './searchBar.css';
+import './SearchBar.css';
 import SearchBtn from "../../assets/searchBtn.svg";
 import React, { useState, useRef, useEffect } from 'react';
 

@@ -7,6 +7,7 @@ function EventDescription() {
   const [eventData, setEventData] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isCopied, setIsCopied] = useState(false);
   useEffect(() => {
     fetch("../../../db.json")
       .then((response) => response.json())
@@ -26,6 +27,22 @@ function EventDescription() {
         setLoading(false);
       });
   }, [id]);
+  const handleShareButtonClick = () => {
+    const currentURL = window.location.href;
+    navigator.clipboard.writeText(currentURL).then(
+      () => {
+        console.log("URL copiada con éxito:", currentURL);
+        setIsCopied(true);
+      },
+      (error) => {
+        console.error("Error al copiar la URL:", error);
+      }
+    );
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 3000);
+  };
+
   if (loading) {
     return <p>Loading...</p>;
   }
@@ -37,11 +54,20 @@ function EventDescription() {
       <img className="eventBackground" src={eventData.picture} />
       <div className="eventData">
         <h1 className="eventTitle">{eventData.name}</h1>
-        <a className="eventAddress" href={eventData.map}>{eventData.address}</a>
+        <a className="eventAddress" href={eventData.map}>
+          {eventData.address}
+        </a>
         <p className="eventDay">{eventData.schedule.day}</p>
         <p className="eventTime">{eventData.schedule.time}</p>
-        <p className="eventDescription"><h4>Descripción</h4>{eventData.description}</p>
+        <p className="eventDescription">
+          <h4>Descripción</h4>
+          {eventData.description}
+        </p>
         <button className="eventPrice">{eventData.price}</button>
+        <FontAwesomeIcon icon="fa-regular fa-share-from-square" style={{color: "#ffffff",}} className="eventShareButton" onClick={handleShareButtonClick}/>
+
+      
+      {isCopied && <p>¡URL copiada al portapapeles!</p>}
       </div>
     </div>
   );
