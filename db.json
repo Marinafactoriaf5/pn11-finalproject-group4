@@ -2,7 +2,7 @@
     "users":[
         {   
             "id": 1 ,
-            "mail": "manolo@gmail.com",
+            "mail": "mrullproductiongmail.com",
             "password": "12345678"
         }
     ],
@@ -18,8 +18,9 @@
             "duration": "1:30 horas",
             "price": "GRATIS",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": ""
+            "description": "¡Bienvenidos a la Fiesta de Risas y Bailes, donde la diversión alcanza su punto álgido en una fusión única de comedia y música! Este evento excepcional te sumergirá en una atmósfera de alegría desbordante y entretenimiento inigualable. Con un elenco estelar de comediantes dispuestos a arrancarte carcajadas con su humor fresco y chispeante, la risa se apoderará de la noche. Desde monólogos ingeniosos hasta bromas inesperadas, cada actuación está diseñada para asegurarte una experiencia cómica sin igual. Pero la diversión no se detiene allí. Después de que los comediantes hayan conquistado tus risas, la pista de baile se iluminará con luces vibrantes, invitándote a dejar que la música te lleve. Un DJ experto mezclará ritmos que van desde los clásicos hasta los éxitos más recientes, creando una experiencia musical que te hará mover los pies sin parar. La pista se llenará de sonrisas y energía festiva mientras todos disfrutan de una noche llena de camaradería y momentos de baile inolvidables. La Fiesta de Risas y Bailes no es solo un evento, es una experiencia completa que fusiona la risa, la música y la celebración en una noche que perdurará en tu memoria. Así que vístete con tu atuendo más festivo, reúnete con amigos y familiares, y únete a nosotros para una velada que te asegura risas interminables y momentos de baile que recordarás con una sonrisa. ¡Te esperamos para crear recuerdos que harán que esta noche sea única e inolvidable!",
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 2,
             "name": "Las magias de Túnez",
@@ -32,8 +33,9 @@
             "duration": "3 horas",
             "price": "GRATIS",
             "category": "Top Rated",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "description": "Embárcate en un viaje mágico a través de Las Magias de Túnez, un evento extraordinario que transporta a los asistentes a la rica y cautivadora cultura tunecina. Desde el momento en que ingresan, los visitantes se encuentran inmersos en un ambiente encantador, con colores exuberantes, aromas embriagadores y una autenticidad cultural que envuelve el espacio. El evento presenta una mezcla ecléctica de arte, música y gastronomía tunecina, ofreciendo una experiencia multisensorial que refleja la diversidad y la tradición de este fascinante país. En el corazón del evento, artistas talentosos realizan actuaciones que capturan la esencia de la magia tunecina. Desde danzas folklóricas hipnóticas hasta actuaciones musicales que evocan la rica historia del país, Las Magias de Túnez ofrecen un espectáculo que trasciende el tiempo y el espacio. Además, los sabores auténticos de la cocina tunecina deleitan los paladares con delicias culinarias, transportando a los visitantes a un festín sensorial que celebra la exquisita fusión de sabores locales. En resumen, este evento único ofrece una ventana a la magia de Túnez, llevando a los participantes a un viaje inolvidable a través de sus tradiciones, música y delicias culinarias.",
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {
             "id": 3,
@@ -48,7 +50,8 @@
             "price": "33,00 EUR",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 4,
             "name": "Retro Fiesta: Viaje al Pasado Divertido",
@@ -62,7 +65,8 @@
             "price": "GRATIS",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address":"ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":5,
             "name": "Carrera de Carritos Locos",
@@ -76,7 +80,8 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":6,
             "name": "Festival de Burbujas y Risas",
@@ -89,8 +94,9 @@
             "duration": "2 horas",
             "price": "GRATIS",
             "category": "Top Rated",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "description": "¡Bienvenidos a la Fiesta de Risas y Bailes, donde la diversión alcanza su punto álgido en una fusión única de comedia y música! Este evento excepcional te sumergirá en una atmósfera de alegría desbordante y entretenimiento inigualable. Con un elenco estelar de comediantes dispuestos a arrancarte carcajadas con su humor fresco y chispeante, la risa se apoderará de la noche. Desde monólogos ingeniosos hasta bromas inesperadas, cada actuación está diseñada para asegurarte una experiencia cómica sin igual. Pero la diversión no se detiene allí. Después de que los comediantes hayan conquistado tus risas, la pista de baile se iluminará con luces vibrantes, invitándote a dejar que la música te lleve. Un DJ experto mezclará ritmos que van desde los clásicos hasta los éxitos más recientes, creando una experiencia musical que te hará mover los pies sin parar. La pista se llenará de sonrisas y energía festiva mientras todos disfrutan de una noche llena de camaradería y momentos de baile inolvidables. La Fiesta de Risas y Bailes no es solo un evento, es una experiencia completa que fusiona la risa, la música y la celebración en una noche que perdurará en tu memoria. Así que vístete con tu atuendo más festivo, reúnete con amigos y familiares, y únete a nosotros para una velada que te asegura risas interminables y momentos de baile que recordarás con una sonrisa. ¡Te esperamos para crear recuerdos que harán que esta noche sea única e inolvidable!",
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":7,
             "name": "Noche de Juegos Absurdos",
@@ -104,7 +110,8 @@
             "price": "GRATIS",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 8,
             "name": "Club de lectura-Cometierra, de Dolores Reyes",
@@ -118,7 +125,8 @@
             "price": "4,00 EUR",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 9,
             "name": "Explosión de Risas: Comedia en Vivo",
@@ -132,7 +140,8 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":10,
             "name": "Fiesta de Disfraces Ridículos",
@@ -146,7 +155,8 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":11,
             "name": "Maratón de Películas Cómicas",
@@ -160,7 +170,8 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":12,
             "name": "Desafío de Baile Ridículo",
@@ -174,7 +185,8 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":13,
             "name": "Karaoke del Caos",
@@ -188,7 +200,8 @@
             "price": "5,00 EUR",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 14,
             "name": "Fiesta de Pijamas a lo Grande",
@@ -202,7 +215,8 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":15,
             "name": "Caza del Tesoro Absurda",
@@ -216,7 +230,8 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":16,
             "name": "Yoga dinámico",
@@ -230,7 +245,8 @@
             "price": "12,00 EUR",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":17,
             "name": "Hatha Yoga en Badalona",
@@ -244,7 +260,8 @@
             "price": "PAGO",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":18,
             "name": "Concurso de Chistes Locos",
@@ -258,7 +275,8 @@
             "price": "PAGO",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":19,
             "name": "Noche de Magia y Payasadas",
@@ -272,7 +290,8 @@
             "price": "15 EUR",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":20,
             "name": "Batalla de Globos de Agua",
@@ -286,7 +305,8 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":21,
             "name": "Festival de Comida Exótica y Divertida",
@@ -300,7 +320,8 @@
             "price": "62 EUR",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":22,
             "name": "Tour de Risa: Stand-Up en la Ciudad",
@@ -314,7 +335,8 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":23,
             "name": "Olimpiadas Ridículas: Competencias Absurdas",
@@ -328,7 +350,8 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":24,
             "name": "Ruta a Caballo",
@@ -342,7 +365,8 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":25,
             "name": "Taller de Acroyoga en Familia",
@@ -356,7 +380,8 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":26,
             "name": "Desfile de Moda Absurda",
@@ -370,7 +395,8 @@
             "price": "GRATIS",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":27,
             "name": "Museo Marítimo",
@@ -384,7 +410,8 @@
             "price": "12 EUR",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":28,
             "name": "Scrabble en família en el Casal de Alella",
@@ -398,7 +425,8 @@
             "price": "GRATIS",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":29,
             "name": "Show de Malabares y Locuras",
@@ -412,7 +440,8 @@
             "price": "15 EUR",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":30,
             "name": "Cena a la Luz de las Velas",
@@ -426,7 +455,8 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         }
     ]
 }
