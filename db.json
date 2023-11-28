@@ -10,7 +10,7 @@
         {   "id": 1,
             "name": "Fiesta de Risas y Bailes",
             "tags": ["Emprendedores", "Conciencia Eco", "Equipo", "Gratis"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/e/9/4/8/event_516119720.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/audiencia-emocionada-viendo-fuegos-artificiales-confeti-divirtiendose-festival-musica-noche-copiar-espacio_637285-559.jpg?w=1480&t=st=1701083038~exp=1701083638~hmac=b86866efa8650f0ad13137103bb5e364b72afb4dc637fa71c982fc10b43117e4"],
             "schedule": {
                 "day": "Sabado, 18 de Noviembre de 2023",
                 "time": "11:30"
@@ -25,7 +25,7 @@
         {   "id": 2,
             "name": "Las magias de Túnez",
             "tags":["Circuito", "Grupo reducido", "Magia", "Gratis"],
-            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516002615/272x153.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/hermosas-dunas-arena-desierto-sahara_661209-131.jpg?w=1480&t=st=1701084417~exp=1701085017~hmac=44d5884509ca9822683b7f4e6cc2a0772e1da431e287fda19528cb4513b74e33"],
             "schedule": {
                 "day": "Viernes, 8 de Diciembre de 2023",
                 "time": "20:00"
@@ -41,7 +41,7 @@
             "id": 3,
             "name": "Aventuras Cómicas: Un Show de Stand-Up",
             "tags":["Celebraciones", "Fiesta", "Familiar"],
-            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516869972/272x153.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/foco-escenario-ilumina-microfono-condensador-cromado-brillante-generado-ia_188544-29168.jpg?w=1800&t=st=1701084538~exp=1701085138~hmac=4cbbf97a87fa468c98284a29aa1c42560fcbc5b220d030c2a7f59c84cc05d4e0"],
             "schedule": {
                 "day": "Domingo, 26 de Noviembre de 2023",
                 "time": "17:00"
@@ -56,7 +56,7 @@
         {   "id": 4,
             "name": "Retro Fiesta: Viaje al Pasado Divertido",
             "tags": ["Fiesta", "Retro", "Noche", "Gratis"],
-            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/228741072/222x125.webp?w=256"],
+            "picture": ["https://img.freepik.com/foto-gratis/audiencia-emocionada-viendo-fuegos-artificiales-confeti-divirtiendose-festival-musica-noche-copiar-espacio_637285-559.jpg?w=1480&t=st=1701083038~exp=1701083638~hmac=b86866efa8650f0ad13137103bb5e364b72afb4dc637fa71c982fc10b43117e4"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
                 "time": "19:00"
@@ -131,7 +131,7 @@
         {   "id": 9,
             "name": "Explosión de Risas: Comedia en Vivo",
             "tags": ["Espectáculo", "Comedia", "Noche", "Gratis"],
-            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/514159693/272x153.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/foco-escenario-ilumina-microfono-condensador-cromado-brillante-generado-ia_188544-29168.jpg?w=1800&t=st=1701084538~exp=1701085138~hmac=4cbbf97a87fa468c98284a29aa1c42560fcbc5b220d030c2a7f59c84cc05d4e0"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
                 "time": "19:00"
@@ -146,7 +146,7 @@
         {   "id":10,
             "name": "Fiesta de Disfraces Ridículos",
             "tags": ["Fiesta", "Disfraces", "Noche", "Gratis"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/c/f/0/a/event_490013002.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/audiencia-emocionada-viendo-fuegos-artificiales-confeti-divirtiendose-festival-musica-noche-copiar-espacio_637285-559.jpg?w=1480&t=st=1701083038~exp=1701083638~hmac=b86866efa8650f0ad13137103bb5e364b72afb4dc637fa71c982fc10b43117e4"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
                 "time": "19:00"
@@ -191,7 +191,7 @@
         {   "id":13,
             "name": "Karaoke del Caos",
             "tags": ["Music", "Night"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/c/9/9/d/600_503391613.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/vista-posterior-audiencia-brazos-levantados-frente-al-escenario-concierto-musica_637285-640.jpg?w=1800&t=st=1701083216~exp=1701083816~hmac=6145174968b814afae6951d0eec1ef4be3f5c130da2f54f18dd4fb3a0ed4ab90"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
                 "time": "20:00"
@@ -266,7 +266,7 @@
         {   "id":18,
             "name": "Concurso de Chistes Locos",
             "tags": ["Comedia", "Concurso", "Social"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/5/b/6/4/600_514883396.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/foco-escenario-ilumina-microfono-condensador-cromado-brillante-generado-ia_188544-29168.jpg?w=1800&t=st=1701084538~exp=1701085138~hmac=4cbbf97a87fa468c98284a29aa1c42560fcbc5b220d030c2a7f59c84cc05d4e0"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
                 "time": "18:30"
@@ -281,7 +281,7 @@
         {   "id":19,
             "name": "Noche de Magia y Payasadas",
             "tags": ["Social", "Grupal", "Noche"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/c/3/7/1/600_513110033.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/retrato-dos-artistas-mimo-feliz-delante-cortina-roja_23-2147891688.jpg?w=1480&t=st=1701084239~exp=1701084839~hmac=6eaf5228a9261d21cff8f44269f85ae5a9b672a114aa99dc80fc506b35f07f3b"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
                 "time": "19:00"
@@ -326,7 +326,7 @@
         {   "id":22,
             "name": "Tour de Risa: Stand-Up en la Ciudad",
             "tags": ["Comedia", "Pasear", "Bienestar", "Gratis", "Día"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/2/a/4/d/600_492850829.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/retrato-dos-artistas-mimo-feliz-delante-cortina-roja_23-2147891688.jpg?w=1480&t=st=1701084239~exp=1701084839~hmac=6eaf5228a9261d21cff8f44269f85ae5a9b672a114aa99dc80fc506b35f07f3b"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
                 "time": "07:50"
@@ -339,7 +339,7 @@
             "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":23,
-            "name": "Olimpiadas Ridículas: Competencias Absurdas",
+            "name": "Excursión a la Garrotxa",
             "tags": ["Deporte", "Concurso", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/2/e/1/d/600_516491805.webp?w=384"],
             "schedule": {
@@ -351,7 +351,7 @@
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
-            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
+            "map": ["https://maps.app.goo.gl/GLrvqxNJ295ZZDRq8"]
         },
         {   "id":24,
             "name": "Ruta a Caballo",
@@ -365,7 +365,7 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "address": "Carrer Esglesia, 36, 17811 Can Blanc, Girona",
             "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":25,
@@ -384,9 +384,9 @@
             "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":26,
-            "name": "Desfile de Moda Absurda",
+            "name": "Desfile de Moda",
             "tags": ["Moda", "40 EUR", "Barcelona"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/d/3/6/2/600_516474114.webp?w=384"],
+            "picture": ["https://www.dsigno.es/blog/wp-content/uploads/2017/03/mejores-desfiles-de-moda-mundo-london-fashion-week.jpg"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
                 "time": "12:00"
@@ -431,7 +431,7 @@
         {   "id":29,
             "name": "Show de Malabares y Locuras",
             "tags": ["Malabares", "Día"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/c/6/0/5/600_516290693.webp?w=384"],
+            "picture": ["https://iphonegr.reforma.com/libre/online07/imagetransformer2/ImageTransformer.aspx?img=https://img.gruporeforma.com/imagenes/960x640/5/534/4533454.jpg&imagencompleta=1"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
                 "time": "18:30"

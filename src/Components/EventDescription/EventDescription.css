@@ -5,8 +5,7 @@
     background-position: center;
     position: absolute;
     z-index: -3;
-    opacity: 0.2;
-    
+    opacity: 0.2;  
 }
 
 .eventData {
@@ -23,7 +22,6 @@
     border-bottom: 2px solid #FFF;
     padding-bottom: 2vw;
     padding-top: 1vw;
-
 }
 
 .eventDay {
@@ -32,7 +30,6 @@
     font-size: clamp(20px, 3vw, 35px);    
     margin-top: 3vw;
     padding: 0 1vw 1vw 0;
-
 }
 
 .eventTime {
@@ -52,7 +49,6 @@
     color: white;
     line-height: 1.5;
     font-size: clamp(15px, 3vw, 20px);
-
 }
 
 .eventPrice {
@@ -66,11 +62,17 @@
     border-radius: 10px;
     border: none;
     background: rgba(109, 163, 196, 0.67);
-    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25); /* Aggiorna la shadow per l'effetto desiderato */
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25);
     transition: box-shadow 0.3s ease; 
     &:hover {
-        box-shadow: 5px 4px 20px 0px rgba(0, 0, 0, 0.5); /* Cambia la shadow al passaggio del mouse */
+        box-shadow: 5px 4px 20px 0px rgba(0, 0, 0, 0.5);
     }
+}
+
+.eventAddress{
+    text-decoration: none;
+    color: rgba(187, 218, 238, 0.891);
+    font-family: Roboto;
 }
 
 
