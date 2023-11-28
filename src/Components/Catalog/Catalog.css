@@ -1,10 +1,7 @@
 .catalog{
   position: absolute;
   top: 73%;
-  max-width: 99%;
-  
-  
-
+  width: 100%;
 }
 
 .heroCatalogDivision{

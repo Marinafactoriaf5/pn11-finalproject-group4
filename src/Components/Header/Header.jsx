@@ -2,13 +2,21 @@
 
 import React from "react";
 import "./Header.css";
-import Logo from "../../assets/logo.png";
+import Logo from "./logo";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 
 function Header() {
   return (
     <header>
-      <img src={Logo} className="logo" alt="VIVID" />
+      <a className="Logo">
+       <Logo/>
+       </a>
+      <a className="navLogin" href="/loginPage">
+      <FontAwesomeIcon icon={faUser} />
+      {/* {isLoggedIn ? 'Logout' : 'Login'} */}
+    </a>
     </header>
   );
 }

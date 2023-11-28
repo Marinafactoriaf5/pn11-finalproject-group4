@@ -1,14 +1,15 @@
-import EventDescriptionHero from "../EventDescription/EventDescriptionHero";
-import EventDescriptionMap from "../EventDescription/EventDescriptionMap";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import EventShareButton from "../EventDescription/ShareButton";
 import "./EventDescription.css";
+
 
 function EventDescription() {
   const { id } = useParams();
   const [eventData, setEventData] = useState({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isCopied, setIsCopied] = useState(false);
   useEffect(() => {
     fetch("../../../db.json")
       .then((response) => response.json())
@@ -28,6 +29,22 @@ function EventDescription() {
         setLoading(false);
       });
   }, [id]);
+  const handleShareButtonClick = () => {
+    const currentURL = window.location.href;
+    navigator.clipboard.writeText(currentURL).then(
+      () => {
+        console.log("URL copiada con éxito:", currentURL);
+        setIsCopied(true);
+      },
+      (error) => {
+        console.error("Error al copiar la URL:", error);
+      }
+    );
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 3000);
+  };
+
   if (loading) {
     return <p>Loading...</p>;
   }
@@ -36,19 +53,28 @@ function EventDescription() {
   }
   return (
     <div>
-      <EventDescriptionHero />
+      <img className="eventBackground" src={eventData.picture} />
       <div className="eventData">
-        <h1>{eventData.name}</h1>
-        <img src={eventData.picture}/>
-        <p>{eventData.description}</p>
-        <p>{eventData.price}</p>
-        <p>{eventData.schedule.day}</p>
-        <p>{eventData.schedule.time}</p>
-        <p>{eventData.tags}</p>
+        <h1 className="eventTitle">{eventData.name}</h1>
+        <a className="eventAddress" href={eventData.map}>
+          {eventData.address}
+        </a>
+        <p className="eventDay">{eventData.schedule.day}</p>
+        <p className="eventTime">{eventData.schedule.time}</p>
+        <p className="eventDescription">
+          <h4>Descripción</h4>
+          {eventData.description}
+        </p>
+        <button className="eventPrice">{eventData.price}</button>
+        <button icon="fa-regular fa-share-from-square" style={{color: "#ffffff",}} className="eventShareButton" onClick={handleShareButtonClick}> </button>
 
+      
+      {isCopied && <p>¡URL copiada al portapapeles!</p>}
       </div>
-      <EventDescriptionMap />
+      <EventShareButton eventId={eventData.id} />
+
     </div>
+    
   );
 }
 export default EventDescription;

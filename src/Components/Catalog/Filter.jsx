@@ -5,26 +5,22 @@ function Filter() {
   return (
     <div className='filterDiv'>
         <button className='filterBtn'>
-        mango
+        Top Rated
         </button>
         <button className='filterBtn'>
-        fresa
+        Dia 
         </button>
         <button className='filterBtn'>
-        sandia
+        Senderismo
         </button>
         <button className='filterBtn'>
-        mora
+        Conciertos
         </button>
         <button className='filterBtn'>
-        uva
+        Montañismo
         </button>
-        <button className='filterBtn'>
-        pera
-        </button>
-        <button className='filterBtn'>
-        piña
-        </button>
+        
+        
     </div>
   )
 }

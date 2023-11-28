@@ -1,22 +1,23 @@
 .categories {
-    padding: 1%;
+    width: 97vw;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 2%;
+  
 }
 
 .categoriesCarouselTitle {
-    display: flex;
-    flex-direction: column;
     color: white;
-    margin-left: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: clamp(25px, 3vw, 30px);
 }
 
 .categoriesCarousel {
+    padding: 2vh;
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-    height: 100%;
 }

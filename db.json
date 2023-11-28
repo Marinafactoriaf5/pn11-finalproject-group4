@@ -1,9 +1,16 @@
 {
+    "users":[
+        {   
+            "id": 1 ,
+            "mail": "mrullproductiongmail.com",
+            "password": "12345678"
+        }
+    ],
     "events": [
         {   "id": 1,
-            "name": "Creación equipo emprendedoras conscientes Eco",
+            "name": "Fiesta de Risas y Bailes",
             "tags": ["Emprendedores", "Conciencia Eco", "Equipo", "Gratis"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/e/9/4/8/event_516119720.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/audiencia-emocionada-viendo-fuegos-artificiales-confeti-divirtiendose-festival-musica-noche-copiar-espacio_637285-559.jpg?w=1480&t=st=1701083038~exp=1701083638~hmac=b86866efa8650f0ad13137103bb5e364b72afb4dc637fa71c982fc10b43117e4"],
             "schedule": {
                 "day": "Sabado, 18 de Noviembre de 2023",
                 "time": "11:30"
@@ -11,23 +18,14 @@
             "duration": "1:30 horas",
             "price": "GRATIS",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": {
-                "iframe": {
-                  "@src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.5364122374326!2d2.1559991767396904!3d41.384155771300286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2896d5814f3%3A0xa6160f72fc542790!2sC%2F%20de%20la%20Diputaci%C3%B3%2C%20157%2C%2008011%20Barcelona!5e0!3m2!1ses!2ses!4v1700129245833!5m2!1ses!2ses",
-                  "@width": "400",
-                  "@height": "300",
-                  "@style": "border:0;",
-                  "@allowfullscreen": "",
-                  "@loading": "lazy",
-                  "@referrerpolicy": "no-referrer-when-downgrade"
-                }
-              }
+            "description": "¡Bienvenidos a la Fiesta de Risas y Bailes, donde la diversión alcanza su punto álgido en una fusión única de comedia y música! Este evento excepcional te sumergirá en una atmósfera de alegría desbordante y entretenimiento inigualable. Con un elenco estelar de comediantes dispuestos a arrancarte carcajadas con su humor fresco y chispeante, la risa se apoderará de la noche. Desde monólogos ingeniosos hasta bromas inesperadas, cada actuación está diseñada para asegurarte una experiencia cómica sin igual. Pero la diversión no se detiene allí. Después de que los comediantes hayan conquistado tus risas, la pista de baile se iluminará con luces vibrantes, invitándote a dejar que la música te lleve. Un DJ experto mezclará ritmos que van desde los clásicos hasta los éxitos más recientes, creando una experiencia musical que te hará mover los pies sin parar. La pista se llenará de sonrisas y energía festiva mientras todos disfrutan de una noche llena de camaradería y momentos de baile inolvidables. La Fiesta de Risas y Bailes no es solo un evento, es una experiencia completa que fusiona la risa, la música y la celebración en una noche que perdurará en tu memoria. Así que vístete con tu atuendo más festivo, reúnete con amigos y familiares, y únete a nosotros para una velada que te asegura risas interminables y momentos de baile que recordarás con una sonrisa. ¡Te esperamos para crear recuerdos que harán que esta noche sea única e inolvidable!",
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 2,
-            "name": "Las magias de Túnez - Circuito en grupo reducido",
+            "name": "Las magias de Túnez",
             "tags":["Circuito", "Grupo reducido", "Magia", "Gratis"],
-            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516002615/272x153.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/hermosas-dunas-arena-desierto-sahara_661209-131.jpg?w=1480&t=st=1701084417~exp=1701085017~hmac=44d5884509ca9822683b7f4e6cc2a0772e1da431e287fda19528cb4513b74e33"],
             "schedule": {
                 "day": "Viernes, 8 de Diciembre de 2023",
                 "time": "20:00"
@@ -35,14 +33,15 @@
             "duration": "3 horas",
             "price": "GRATIS",
             "category": "Top Rated",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "description": "Embárcate en un viaje mágico a través de Las Magias de Túnez, un evento extraordinario que transporta a los asistentes a la rica y cautivadora cultura tunecina. Desde el momento en que ingresan, los visitantes se encuentran inmersos en un ambiente encantador, con colores exuberantes, aromas embriagadores y una autenticidad cultural que envuelve el espacio. El evento presenta una mezcla ecléctica de arte, música y gastronomía tunecina, ofreciendo una experiencia multisensorial que refleja la diversidad y la tradición de este fascinante país. En el corazón del evento, artistas talentosos realizan actuaciones que capturan la esencia de la magia tunecina. Desde danzas folklóricas hipnóticas hasta actuaciones musicales que evocan la rica historia del país, Las Magias de Túnez ofrecen un espectáculo que trasciende el tiempo y el espacio. Además, los sabores auténticos de la cocina tunecina deleitan los paladares con delicias culinarias, transportando a los visitantes a un festín sensorial que celebra la exquisita fusión de sabores locales. En resumen, este evento único ofrece una ventana a la magia de Túnez, llevando a los participantes a un viaje inolvidable a través de sus tradiciones, música y delicias culinarias.",
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {
             "id": 3,
-            "name": "The Samanà Birthday Party",
+            "name": "Aventuras Cómicas: Un Show de Stand-Up",
             "tags":["Celebraciones", "Fiesta", "Familiar"],
-            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/516869972/272x153.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/foco-escenario-ilumina-microfono-condensador-cromado-brillante-generado-ia_188544-29168.jpg?w=1800&t=st=1701084538~exp=1701085138~hmac=4cbbf97a87fa468c98284a29aa1c42560fcbc5b220d030c2a7f59c84cc05d4e0"],
             "schedule": {
                 "day": "Domingo, 26 de Noviembre de 2023",
                 "time": "17:00"
@@ -51,12 +50,13 @@
             "price": "33,00 EUR",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 4,
-            "name": "WebPerf Workshop in Adevinta with Joan Leon",
-            "tags": ["Taller", "Aprendizaje", "Noche", "Gratis"],
-            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/228741072/222x125.webp?w=256"],
+            "name": "Retro Fiesta: Viaje al Pasado Divertido",
+            "tags": ["Fiesta", "Retro", "Noche", "Gratis"],
+            "picture": ["https://img.freepik.com/foto-gratis/audiencia-emocionada-viendo-fuegos-artificiales-confeti-divirtiendose-festival-musica-noche-copiar-espacio_637285-559.jpg?w=1480&t=st=1701083038~exp=1701083638~hmac=b86866efa8650f0ad13137103bb5e364b72afb4dc637fa71c982fc10b43117e4"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
                 "time": "19:00"
@@ -65,11 +65,12 @@
             "price": "GRATIS",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address":"ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":5,
-            "name": "DREAMLIFE STARTUP AWARD",
-            "tags": ["Startup", "Premio", "Emprendimiento", "Gratis"],
+            "name": "Carrera de Carritos Locos",
+            "tags": ["Aventura", "Concurso", "Competición", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/517184261/272x153.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 30 de Noviembre de 2023",
@@ -79,11 +80,12 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":6,
-            "name": "Introducció a la sopa de partícules del model estàndard de la física",
-            "tags": ["Aprendizaje", "Ciencia", "Emprendimiento", "Gratis"],
+            "name": "Festival de Burbujas y Risas",
+            "tags": ["Aprendizaje", "Ciencia", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/514674724/272x153.webp?w=384"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
@@ -92,12 +94,13 @@
             "duration": "2 horas",
             "price": "GRATIS",
             "category": "Top Rated",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "description": "¡Bienvenidos a la Fiesta de Risas y Bailes, donde la diversión alcanza su punto álgido en una fusión única de comedia y música! Este evento excepcional te sumergirá en una atmósfera de alegría desbordante y entretenimiento inigualable. Con un elenco estelar de comediantes dispuestos a arrancarte carcajadas con su humor fresco y chispeante, la risa se apoderará de la noche. Desde monólogos ingeniosos hasta bromas inesperadas, cada actuación está diseñada para asegurarte una experiencia cómica sin igual. Pero la diversión no se detiene allí. Después de que los comediantes hayan conquistado tus risas, la pista de baile se iluminará con luces vibrantes, invitándote a dejar que la música te lleve. Un DJ experto mezclará ritmos que van desde los clásicos hasta los éxitos más recientes, creando una experiencia musical que te hará mover los pies sin parar. La pista se llenará de sonrisas y energía festiva mientras todos disfrutan de una noche llena de camaradería y momentos de baile inolvidables. La Fiesta de Risas y Bailes no es solo un evento, es una experiencia completa que fusiona la risa, la música y la celebración en una noche que perdurará en tu memoria. Así que vístete con tu atuendo más festivo, reúnete con amigos y familiares, y únete a nosotros para una velada que te asegura risas interminables y momentos de baile que recordarás con una sonrisa. ¡Te esperamos para crear recuerdos que harán que esta noche sea única e inolvidable!",
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":7,
-            "name": "Goddess Gathering Sensual Journey",
-            "tags": ["Espiritual", "Grupal", "Noche", "Gratis"],
+            "name": "Noche de Juegos Absurdos",
+            "tags": ["Juegos", "Grupal", "Noche", "Gratis"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/512779185/272x153.webp?w=384"],
             "schedule": {
                 "day": "Viernes, 1 de Diciembre de 2023",
@@ -107,10 +110,11 @@
             "price": "GRATIS",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 8,
-            "name": "Club de lectura - Cometierra, de Dolores Reyes",
+            "name": "Club de lectura-Cometierra, de Dolores Reyes",
             "tags": ["Aprendizaje", "Grupal", "Lectura", "Noche"],
             "picture": ["https://secure-content.meetupstatic.com/images/classic-events/515694584/272x153.webp?w=384"],
             "schedule": {
@@ -121,12 +125,13 @@
             "price": "4,00 EUR",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 9,
-            "name": "Comment investir dans l'Immobilier Locatif ?",
-            "tags": ["Bienes Raíces", "Inversión", "Noche", "Gratis"],
-            "picture": ["https://secure-content.meetupstatic.com/images/classic-events/514159693/272x153.webp?w=384"],
+            "name": "Explosión de Risas: Comedia en Vivo",
+            "tags": ["Espectáculo", "Comedia", "Noche", "Gratis"],
+            "picture": ["https://img.freepik.com/foto-gratis/foco-escenario-ilumina-microfono-condensador-cromado-brillante-generado-ia_188544-29168.jpg?w=1800&t=st=1701084538~exp=1701085138~hmac=4cbbf97a87fa468c98284a29aa1c42560fcbc5b220d030c2a7f59c84cc05d4e0"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
                 "time": "19:00"
@@ -135,12 +140,13 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":10,
-            "name": "ZOOM : Toulouse Toastmasters Communication (En français)",
-            "tags": ["Idiomas", "Comunicación", "Noche", "Gratis"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/c/f/0/a/event_490013002.webp?w=384"],
+            "name": "Fiesta de Disfraces Ridículos",
+            "tags": ["Fiesta", "Disfraces", "Noche", "Gratis"],
+            "picture": ["https://img.freepik.com/foto-gratis/audiencia-emocionada-viendo-fuegos-artificiales-confeti-divirtiendose-festival-musica-noche-copiar-espacio_637285-559.jpg?w=1480&t=st=1701083038~exp=1701083638~hmac=b86866efa8650f0ad13137103bb5e364b72afb4dc637fa71c982fc10b43117e4"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
                 "time": "19:00"
@@ -149,10 +155,11 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":11,
-            "name": "🥂2nd Tuesday Networking Drinks🥂: November edition",
+            "name": "Maratón de Películas Cómicas",
             "tags": ["Tragos", "Noche", "Gratis", "Grupal"],
             "picture": ["https://secure.meetupstatic.com/photos/event/7/4/7/9/600_512909817.webp?w=384"],
             "schedule": {
@@ -163,10 +170,11 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":12,
-            "name": "Barcelona Casual Runners Weekly Meetup",
+            "name": "Desafío de Baile Ridículo",
             "tags": ["Tragos", "Día", "Gratis", "Grupal"],
             "picture": ["https://secure.meetupstatic.com/photos/event/4/7/5/7/600_501198263.webp?w=384"],
             "schedule": {
@@ -177,12 +185,13 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":13,
-            "name": "Anything Else? Open Mic Night of Music, Spoken Word and Stories",
+            "name": "Karaoke del Caos",
             "tags": ["Music", "Night"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/c/9/9/d/600_503391613.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/vista-posterior-audiencia-brazos-levantados-frente-al-escenario-concierto-musica_637285-640.jpg?w=1800&t=st=1701083216~exp=1701083816~hmac=6145174968b814afae6951d0eec1ef4be3f5c130da2f54f18dd4fb3a0ed4ab90"],
             "schedule": {
                 "day": "Martes, 14 de Noviembre de 2023",
                 "time": "20:00"
@@ -191,10 +200,11 @@
             "price": "5,00 EUR",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id": 14,
-            "name": "LA PAELLA DELS DIJOUS",
+            "name": "Fiesta de Pijamas a lo Grande",
             "tags": ["Gastronomía", "Evento", "Gratis", "Noche"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/2/e/c/600_516105804.webp?w=384"],
             "schedule": {
@@ -205,11 +215,12 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":15,
-            "name": "II Conference of R and XIII Workshop for R Users",
-            "tags": ["Workshop", "Gratis", "Día"],
+            "name": "Caza del Tesoro Absurda",
+            "tags": ["Juego", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/b/9/4/600_514968020.webp?w=384"],
             "schedule": {
                 "day": "Miércoles, 15 de Noviembre de 2023",
@@ -219,10 +230,11 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":16,
-            "name": "YOGA dinamico - Miércoles",
+            "name": "Yoga dinámico",
             "tags": ["Yoga", "Salud", "Bienestar"],
             "picture": ["https://secure.meetupstatic.com/photos/event/5/d/6/0/600_501623904.webp?w=384"],
             "schedule": {
@@ -233,10 +245,11 @@
             "price": "12,00 EUR",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":17,
-            "name": "Hatha Yoga en Badalona  🕉️ ",
+            "name": "Hatha Yoga en Badalona",
             "tags": ["Yoga", "Salud", "Bienestar"],
             "picture": ["https://secure.meetupstatic.com/photos/event/c/c/3/c/600_515512284.webp?w=384"],
             "schedule": {
@@ -247,12 +260,13 @@
             "price": "PAGO",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":18,
-            "name": "MONTHLY WOMEN'S CIRCLE: Topic... Pleasure & Guilt",
-            "tags": ["Mujer", "Bienestar", "Social"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/5/b/6/4/600_514883396.webp?w=384"],
+            "name": "Concurso de Chistes Locos",
+            "tags": ["Comedia", "Concurso", "Social"],
+            "picture": ["https://img.freepik.com/foto-gratis/foco-escenario-ilumina-microfono-condensador-cromado-brillante-generado-ia_188544-29168.jpg?w=1800&t=st=1701084538~exp=1701085138~hmac=4cbbf97a87fa468c98284a29aa1c42560fcbc5b220d030c2a7f59c84cc05d4e0"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
                 "time": "18:30"
@@ -261,12 +275,13 @@
             "price": "PAGO",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":19,
-            "name": "REAL CONNECTIONS. HEALING OUR RELASHIONSHIPS",
+            "name": "Noche de Magia y Payasadas",
             "tags": ["Social", "Grupal", "Noche"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/c/3/7/1/600_513110033.webp?w=384"],
+            "picture": ["https://img.freepik.com/foto-gratis/retrato-dos-artistas-mimo-feliz-delante-cortina-roja_23-2147891688.jpg?w=1480&t=st=1701084239~exp=1701084839~hmac=6eaf5228a9261d21cff8f44269f85ae5a9b672a114aa99dc80fc506b35f07f3b"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
                 "time": "19:00"
@@ -275,11 +290,12 @@
             "price": "15 EUR",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":20,
-            "name": "Métricas UX: Entendiendo la relación entre usabilidad y negocio",
-            "tags": ["UX", "Negocio", "Desarrollo", "Gratis", "Día"],
+            "name": "Batalla de Globos de Agua",
+            "tags": ["Diversión", "Desarrollo", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/5/2/f/600_516286383.webp?w=384"],
             "schedule": {
                 "day": "Jueves, 16 de Noviembre de 2023",
@@ -289,11 +305,12 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":21,
-            "name": "Marine enology. Comparison wine tasting",
-            "tags": ["Vino", "Degustación", "Noche"],
+            "name": "Festival de Comida Exótica y Divertida",
+            "tags": ["Comida", "Degustación", "Noche"],
             "picture": ["https://secure.meetupstatic.com/photos/event/6/0/5/3/600_516024659.webp?w=384"],
             "schedule": {
                 "day": "Sábado, 18 de Noviembre de 2023",
@@ -303,12 +320,13 @@
             "price": "62 EUR",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":22,
-            "name": "🍂 Colores de Otoño/Autumn- La Fageda d’en Jorda and the volcanes of la Garrotxa",
-            "tags": ["Otoño", "Senderismo", "Bienestar", "Gratis", "Día"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/2/a/4/d/600_492850829.webp?w=384"],
+            "name": "Tour de Risa: Stand-Up en la Ciudad",
+            "tags": ["Comedia", "Pasear", "Bienestar", "Gratis", "Día"],
+            "picture": ["https://img.freepik.com/foto-gratis/retrato-dos-artistas-mimo-feliz-delante-cortina-roja_23-2147891688.jpg?w=1480&t=st=1701084239~exp=1701084839~hmac=6eaf5228a9261d21cff8f44269f85ae5a9b672a114aa99dc80fc506b35f07f3b"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
                 "time": "07:50"
@@ -317,11 +335,12 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":23,
-            "name": "🍁🍁 FAGEDA MÁGICA GARROTXA & Ermita de Cuento de Hadas 🍁🍁 Senderismo Hiking🍁",
-            "tags": ["Senderismo", "Bienestar", "Mágico", "Gratis", "Día"],
+            "name": "Excursión a la Garrotxa",
+            "tags": ["Deporte", "Concurso", "Gratis", "Día"],
             "picture": ["https://secure.meetupstatic.com/photos/event/2/e/1/d/600_516491805.webp?w=384"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
@@ -331,10 +350,11 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/GLrvqxNJ295ZZDRq8"]
         },
         {   "id":24,
-            "name": "HORSE ROUTE - RUTA A CABALLO",
+            "name": "Ruta a Caballo",
             "tags": ["Ruta a Caballo", "Actividad Ecuestre", "Naturaleza", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/4/9/4/8/600_515598760.webp?w=384"],
             "schedule": {
@@ -345,7 +365,8 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "Carrer Esglesia, 36, 17811 Can Blanc, Girona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":25,
             "name": "Taller de Acroyoga en Familia",
@@ -359,12 +380,13 @@
             "price": "GRATIS",
             "category": "Day",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":26,
-            "name": "Debat: APUNTS DEL SUBSÒL (1864), de Fiódor Dostoïevski [PRESENCIAL!]",
-            "tags": ["Debate", "Aprendizaje", "Gratis", "Cultural"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/d/3/6/2/600_516474114.webp?w=384"],
+            "name": "Desfile de Moda",
+            "tags": ["Moda", "40 EUR", "Barcelona"],
+            "picture": ["https://www.dsigno.es/blog/wp-content/uploads/2017/03/mejores-desfiles-de-moda-mundo-london-fashion-week.jpg"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
                 "time": "12:00"
@@ -373,7 +395,8 @@
             "price": "GRATIS",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":27,
             "name": "Museo Marítimo",
@@ -387,10 +410,11 @@
             "price": "12 EUR",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":28,
-            "name": "Scrabble en família al Casal d'Alella",
+            "name": "Scrabble en família en el Casal de Alella",
             "tags": ["Familiar", "Gratis", "Juegos"],
             "picture": ["https://secure.meetupstatic.com/photos/event/b/4/5/3/600_510346163.webp?w=384"],
             "schedule": {
@@ -401,12 +425,13 @@
             "price": "GRATIS",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":29,
-            "name": "Fusión Yin☯️Chi Kung en MAHA MA - la tristeza: un muro entre dos jardines",
-            "tags": ["Yoga", "Bienestar", "Naturaleza"],
-            "picture": ["https://secure.meetupstatic.com/photos/event/c/6/0/5/600_516290693.webp?w=384"],
+            "name": "Show de Malabares y Locuras",
+            "tags": ["Malabares", "Día"],
+            "picture": ["https://iphonegr.reforma.com/libre/online07/imagetransformer2/ImageTransformer.aspx?img=https://img.gruporeforma.com/imagenes/960x640/5/534/4533454.jpg&imagencompleta=1"],
             "schedule": {
                 "day": "Domingo, 19 de Noviembre de 2023",
                 "time": "18:30"
@@ -415,10 +440,11 @@
             "price": "15 EUR",
             "category": "Top Rated",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         },
         {   "id":30,
-            "name": "The Soul Kitchen: Concert + Jam Session + Dinner",
+            "name": "Cena a la Luz de las Velas",
             "tags": ["Cena", "Cocina", "Gastronomía", "Noche", "Gratis"],
             "picture": ["https://secure.meetupstatic.com/photos/event/1/a/9/6/600_516906806.webp?w=384"],
             "schedule": {
@@ -429,7 +455,8 @@
             "price": "GRATIS",
             "category": "Night",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "address": "ONLINE"
+            "address": "C/ Nou de la Rambla, 113, 08004 Barcelona",
+            "map": ["https://maps.app.goo.gl/3xEL65D3Ey9Cutay6"]
         }
     ]
 }
