@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import EventShareButton from "../EventDescription/ShareButton";
 import "./EventDescription.css";
-
+import shareButton from "../../assets/shareButton.png";
+import heart from "../../assets/heart.png";
 
 function EventDescription() {
   const { id } = useParams();
@@ -10,6 +11,7 @@ function EventDescription() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isCopied, setIsCopied] = useState(false);
+
   useEffect(() => {
     fetch("../../../db.json")
       .then((response) => response.json())
@@ -55,26 +57,29 @@ function EventDescription() {
     <div>
       <img className="eventBackground" src={eventData.picture} />
       <div className="eventData">
-        <h1 className="eventTitle">{eventData.name}</h1>
+        <div className="eventTitleIcons">
+          <h1 className="eventTitle">{eventData.name}</h1>
+          <img className="eventHeart" src={heart} />
+          <img
+            className="eventShareIcon"
+            src={shareButton}
+            onClick={handleShareButtonClick}
+          />
+        </div>
+        {isCopied && <p className="eventShareButtonMessage">¡URL copiada al portapapeles!</p>}
         <a className="eventAddress" href={eventData.map}>
           {eventData.address}
         </a>
         <p className="eventDay">{eventData.schedule.day}</p>
         <p className="eventTime">{eventData.schedule.time}</p>
         <p className="eventDescription">
-          <h4>Descripción</h4>
+          <p className="eventDescriptionTitle">Descripción</p>
           {eventData.description}
         </p>
         <button className="eventPrice">{eventData.price}</button>
-        <FontAwesomeIcon icon="fa-regular fa-share-from-square" style={{color: "#ffffff",}} className="eventShareButton" onClick={handleShareButtonClick}/>
-
-      
-      {isCopied && <p>¡URL copiada al portapapeles!</p>}
       </div>
       <EventShareButton eventId={eventData.id} />
-
     </div>
-    
   );
 }
 export default EventDescription;
