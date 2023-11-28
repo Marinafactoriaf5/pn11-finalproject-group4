@@ -1,9 +1,9 @@
 
 .shareEventButtons {
     position: fixed;
-    bottom: 20px;  /* Regola la distanza dal basso come preferisci */
-    right: 20px;   /* Regola la distanza dalla destra come preferisci */
-    z-index: 1000; /* Imposta uno zIndex maggiore per sovrapporli a contenuti eventualmente presenti */
+    bottom: 20px;  
+    right: 20px;   
+    z-index: 1000; 
   }
   
   .button {
