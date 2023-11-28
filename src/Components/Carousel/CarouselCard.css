@@ -5,6 +5,7 @@
     background: var(--white, #FFF);
     margin: 2% 0 0 2%;
     min-width: 200px;
+    max-width: 200px;
     position: relative;
     cursor: pointer;
     text-decoration: none;

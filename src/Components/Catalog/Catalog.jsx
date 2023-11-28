@@ -7,6 +7,8 @@ import Filter from "./Filter";
 const Catalog = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [eventData, setEventData] = useState({ events: [] });
+  const [filterTerm, setFilterTerm] = useState("");
+
   useEffect(() => {
     fetch('../../../db.json')
       .then((response) => response.json())
@@ -17,8 +19,12 @@ const Catalog = () => {
   const handleInputChange = (event) => {
     handleSearch(event.target.value);
     console.log(searchTerm)
-};
+  };
   const handleSearch = (e) => {
+    setSearchTerm(e.target.value);
+    console.log(searchTerm);
+  }
+  const handleFilter = (e) => {
     setSearchTerm(e.target.value);
     console.log(searchTerm);
   }
@@ -36,14 +42,15 @@ const Catalog = () => {
   const findedEvents = eventData.events.filter((event) => {
     return (
       event.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      event.price.toLowerCase().includes(searchTerm.toLowerCase())
+      event.price.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      event.tags.includes(searchTerm)
     )
   }
   )
-  if (searchTerm !== "") {
+  if (searchTerm !== "" || filterTerm !=="") {
     return (
       <div className="catalog">
-        <Filter/>
+        <Filter handleFilter={handleFilter} setFilterTerm={setFilterTerm} />
         <SearchBar handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
         <Carousel category="Search Results" events={findedEvents} />
         <Carousel category="Top Rated Events" events={topRatedEvents} />
@@ -55,7 +62,7 @@ const Catalog = () => {
   else {
     return (
       <div className="catalog">
-        <Filter/>
+        <Filter handleFilter={handleFilter} setFilterTerm={setFilterTerm} />
         <SearchBar handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
         {/* <Carousel category="Search Results" events={findedEvents} /> */}
         <Carousel category="Top Rated Events" events={topRatedEvents} />
