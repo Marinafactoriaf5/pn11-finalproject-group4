@@ -11,6 +11,7 @@ function EventDescription() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isCopied, setIsCopied] = useState(false);
+
   useEffect(() => {
     fetch("../../../db.json")
       .then((response) => response.json())

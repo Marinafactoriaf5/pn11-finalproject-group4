@@ -4,9 +4,9 @@
     display: flex;
     justify-content: start;
     gap: 1%;
-    padding: 0 1% 1% 2.8%;
-    
+    padding: 0 1% 1% 2.8%;   
 }
+
 .filterBtn{
     position: relative;
     padding: 0 2% 0 2%;
@@ -21,11 +21,9 @@
     font-size: 0.9rem;
     transition: 0.3s ease;
     margin-right: 3%;
-    opacity: 0.9;
-
-
-    
+    opacity: 0.9;  
 }
+
 .filterBtn:hover {
     box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
     scale: 1.1;

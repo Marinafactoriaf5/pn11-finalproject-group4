@@ -9,7 +9,6 @@
 }
 
 .bodySquare {
-
     width: 35vw;
     height: 50vh;
     background-color: rgba(237, 233, 234, 0.157);
@@ -24,12 +23,11 @@
     justify-content: space-evenly;
     flex-direction: column;
     backdrop-filter: blur(1px);
-
 }
+
 .logoImage{
     margin-left: 22%;
     width: 50%;
-    
 }
 
 .pointer {
@@ -49,7 +47,6 @@
 }
 
 .forgot-text {
-    
     color: white;
     font-size: 0.9rem;
 }
@@ -91,6 +88,7 @@ label {
     letter-spacing: 0.1rem;
     color: rgb(255, 255, 255);
 }
+
 .userNameInput,
 .passwordInput{
     width: 100%;

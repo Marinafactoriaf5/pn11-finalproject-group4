@@ -10,7 +10,7 @@ const Catalog = () => {
   const [filterTerm, setFilterTerm] = useState("");
 
   useEffect(() => {
-    fetch('../../../db.json')
+    fetch("../../../db.json")
       .then((response) => response.json())
       .then((data) => setEventData(data))
       .catch((error) => console.error("Error fetching data:", error));
@@ -18,21 +18,16 @@ const Catalog = () => {
 
   const handleInputChange = (event) => {
     handleSearch(event.target.value);
-    console.log(searchTerm)
   };
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
-    console.log(searchTerm);
-  }
+  };
   const handleFilter = (e) => {
     setSearchTerm(e.target.value);
-    console.log(searchTerm);
-  }
-  // console.log(eventData)
+  };
   const dayEvents = eventData.events.filter(
     (event) => event.category === "Day"
   );
-  //   console.log(dayEvents)
   const nightEvents = eventData.events.filter(
     (event) => event.category === "Night"
   );
@@ -44,34 +39,38 @@ const Catalog = () => {
       event.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       event.price.toLowerCase().includes(searchTerm.toLowerCase()) ||
       event.tags.includes(searchTerm)
-    )
-  }
-  )
-  if (searchTerm !== "" || filterTerm !=="") {
+    );
+  });
+  if (searchTerm !== "" || filterTerm !== "") {
     return (
       <div className="catalog">
         <Filter handleFilter={handleFilter} setFilterTerm={setFilterTerm} />
-        <SearchBar handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
+        <SearchBar
+          handleSearch={handleSearch}
+          handleInputChange={handleInputChange}
+          setSearchTerm={setSearchTerm}
+        />
         <Carousel category="Search Results" events={findedEvents} />
         <Carousel category="Top Rated Events" events={topRatedEvents} />
         <Carousel category="Day Events" events={dayEvents} />
         <Carousel category="Night Events" events={nightEvents} />
       </div>
     );
-  }
-  else {
+  } else {
     return (
       <div className="catalog">
         <Filter handleFilter={handleFilter} setFilterTerm={setFilterTerm} />
-        <SearchBar handleSearch={handleSearch} handleInputChange={handleInputChange} setSearchTerm={setSearchTerm} />
-        {/* <Carousel category="Search Results" events={findedEvents} /> */}
+        <SearchBar
+          handleSearch={handleSearch}
+          handleInputChange={handleInputChange}
+          setSearchTerm={setSearchTerm}
+        />
         <Carousel category="Top Rated Events" events={topRatedEvents} />
         <Carousel category="Day Events" events={dayEvents} />
         <Carousel category="Night Events" events={nightEvents} />
       </div>
     );
   }
-
 };
 
 export default Catalog;
