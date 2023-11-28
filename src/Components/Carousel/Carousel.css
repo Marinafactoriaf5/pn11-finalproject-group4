@@ -1,18 +1,14 @@
 .categories {
-    padding: 1%;
+    width: 97vw;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 2%;
-    box-sizing: content-box;
   
 }
 
 .categoriesCarouselTitle {
-
-    display: flex;
-    flex-direction: column;
     color: white;
     margin-left: 2%;
     margin-top: 2%;
@@ -20,9 +16,8 @@
 }
 
 .categoriesCarousel {
+    padding: 2vh;
     display: flex;
-    height: 100%;
-    min-width: 1200px;
     overflow-x: scroll;
     overflow-y: hidden;
 }
