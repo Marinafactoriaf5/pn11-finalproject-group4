@@ -66,7 +66,7 @@ function EventDescription() {
           {eventData.description}
         </p>
         <button className="eventPrice">{eventData.price}</button>
-        <FontAwesomeIcon icon="fa-regular fa-share-from-square" style={{color: "#ffffff",}} className="eventShareButton" onClick={handleShareButtonClick}/>
+        <button icon="fa-regular fa-share-from-square" style={{color: "#ffffff",}} className="eventShareButton" onClick={handleShareButtonClick}> </button>
 
       
       {isCopied && <p>¡URL copiada al portapapeles!</p>}
