@@ -1,6 +1,5 @@
 .eventBackground {
     width: 100%;
-    height: 100%;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -19,31 +18,25 @@
     color: #FFF;
     font-family: Roboto;
     font-size: clamp(20px, 3vw, 35px);
-    border-bottom: 2px solid #FFF;
-    padding-bottom: 2vw;
+    padding-bottom: 1vw;
     padding-top: 1vw;
+    margin-bottom: 2%;
 }
 
 .eventDay {
     color: rgba(187, 218, 238, 0.891);
     font-family: Roboto;
-    font-size: clamp(20px, 3vw, 35px);    
-    margin-top: 3vw;
+    font-size: clamp(15px, 3vw, 20px);    
+    margin-top: 2vw;
     padding: 0 1vw 1vw 0;
 }
 
 .eventTime {
     color: rgba(187, 218, 238, 0.891);
     font-family: Roboto;
-    font-size: clamp(20px, 3vw, 25px);
+    font-size: clamp(15px, 3vw, 20px);
     padding: 0 1vw 3vw 0;
 }
-
-.eventDescription h4 {
-    color: rgba(187, 218, 238, 0.891);
-    padding-bottom: 1vw;
-    font-size: clamp(18px, 3vw, 20px);
-} 
 
 .eventDescription {
     color: white;
@@ -54,10 +47,10 @@
 .eventPrice {
     color: rgba(187, 218, 238, 0.891);
     font-family: Roboto;
-    font-size: clamp(20px, 3vw, 35px);
-    padding: 2vw;
-    position: absolute;
-    top: 10vw;
+    font-size: clamp(20px, 3vw, 25px);
+    padding: 1vw;
+    position: fixed;
+    top: 33%;
     right: 5vw;
     border-radius: 10px;
     border: none;
@@ -72,7 +65,50 @@
 .eventAddress{
     text-decoration: none;
     color: rgba(187, 218, 238, 0.891);
-    font-family: Roboto;
+    font-family: Roboto; 
+    font-size: clamp(15px, 3vw, 20px);  
+    transition: box-shadow 0.3s ease; 
+    &:hover {
+        box-shadow: 5px 4px 20px 0px rgba(255, 255, 255, 0.742);
+    }  
 }
+
+.eventDescriptionTitle{
+    color: rgba(187, 218, 238, 0.891);
+    font-family: Roboto;
+    border-bottom: solid 1px;
+    max-width: 15vh;
+    margin-bottom: 2vh;
+    font-size: clamp(18px, 3vw, 20px); 
+}
+
+.eventHeart{
+    height: 5vh;
+    margin-left: 3%;
+    margin-top: 1.7%;
+}
+
+.eventShareIcon{
+    height: 5vh;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.eventTitleIcons{
+    display: flex;
+    flex-direction: row;
+}
+
+.eventShareButtonMessage{
+    color: white;
+    font-family: Roboto;
+    margin-top: -2%;
+    position:fixed;
+}
+
+
+
+
+
 
 

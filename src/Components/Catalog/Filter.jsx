@@ -1,32 +1,25 @@
-import React from 'react'
-import './Filter.css'
+import React from "react";
+import "./Filter.css";
 
-function Filter({handleFilter}) {
-
-//   const handleBtnClick = (event) => {
-//     event.preventDefault();
-// };
+function Filter({ handleFilter }) {
   return (
-    <div className='filterDiv'>
-        <button value="Familiar" className='filterBtn' onClick={handleFilter}>
+    <div className="filterDiv">
+      <button value="Familiar" className="filterBtn" onClick={handleFilter}>
         Familiar
-        </button>
-        <button value="Dia" className='filterBtn' onClick={handleFilter}>
-        Dia 
-        </button>
-        <button value="Gratis" className='filterBtn' onClick={handleFilter}>
+      </button>
+      <button value="Dia" className="filterBtn" onClick={handleFilter}>
+        Dia
+      </button>
+      <button value="Gratis" className="filterBtn" onClick={handleFilter}>
         Gratis
-        </button>
-        <button value="Circuito" className='filterBtn' onClick={handleFilter}>
+      </button>
+      <button value="Circuito" className="filterBtn" onClick={handleFilter}>
         Circuito
-        </button>
-        <button value="Fiesta" className='filterBtn' onClick={handleFilter}>
+      </button>
+      <button value="Fiesta" className="filterBtn" onClick={handleFilter}>
         Fiesta
-        </button>
-        
-        
+      </button>
     </div>
-  )
+  );
 }
-
 export default Filter;
