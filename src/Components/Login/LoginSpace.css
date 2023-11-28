@@ -9,9 +9,8 @@
 }
 
 .bodySquare {
-
-    width: 35vw;
-    height: 50vh;
+    min-width: 30%;
+    height: 50%;
     background-color: rgba(237, 233, 234, 0.157);
     border-radius: 15%;
 }
