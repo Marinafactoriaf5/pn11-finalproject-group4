@@ -13,9 +13,13 @@ const LoginSpace = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (name === "" || password === "") {
-      setError(true);
-      return;
+    if (name !== "" && password !== "" ) {
+      setError(false)
+      console.log(name , password)
+      
+    }
+    else{
+      setError (true)
     }
   };
 
@@ -40,7 +44,6 @@ const LoginSpace = () => {
                   className="userNameInput"
                   placeholder="correo@ejemplo.com"
                   id="userid"
-                  required
                 />
               </div>
               <div className="form-floating mt-3">
@@ -58,13 +61,7 @@ const LoginSpace = () => {
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="1234ABCD"
                   id="password"
-                  required
                 />
-              </div>
-              <div className="d-flex justify-content-end">
-                <p className="d-inline-block m-0 pe-2 pt-2 fst-italic fw-semibold pointer forgot-text">
-                  ¿Olvidaste tu contraseña?
-                </p>
               </div>
               <div className="px-5">
                 <button
