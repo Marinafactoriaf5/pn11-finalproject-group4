@@ -4,5 +4,5 @@
   box-sizing: border-box;
 }
 body{
-  overscroll-behavior: contain;
+  max-width: 100%;
 }

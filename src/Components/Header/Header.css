@@ -6,7 +6,6 @@ header {
   background: linear-gradient(180deg, rgba(1, 22, 35, 0.90) 0%, rgba(1, 22, 35, 0.80) 33.33%, rgba(1, 22, 35, 0.50) 66.67%, rgba(1, 22, 35, 0.00) 100%);
   position: fixed;
   z-index: 10;
-
 }
 
 .navLogin {
