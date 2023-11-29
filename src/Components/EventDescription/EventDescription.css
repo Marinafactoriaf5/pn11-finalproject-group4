@@ -44,33 +44,32 @@
     font-size: clamp(15px, 3vw, 20px);
 }
 
-.eventPrice {
-    color: rgba(187, 218, 238, 0.891);
-    font-family: Roboto;
-    font-size: clamp(20px, 3vw, 25px);
-    padding: 1vw;
-    position: fixed;
-    top: 33%;
-    right: 5vw;
-    border-radius: 10px;
-    border: none;
-    background: rgba(109, 163, 196, 0.67);
-    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 0.3s ease; 
-    &:hover {
-        box-shadow: 5px 4px 20px 0px rgba(0, 0, 0, 0.5);
-    }
+.eventPrice{
+position: sticky;
+margin-left: 20%;
+font-family: Roboto;
+font-size: clamp(15px, 3vw, 20px);
+color: rgba(187, 218, 238, 0.891);
+padding: 1vw;
+border-radius: 10px;
+border: none;
+background: rgba(109, 163, 196, 0.67);
+width: fit-content;
+height: 8vh;
+
 }
+
 
 .eventAddress{
     text-decoration: none;
     color: rgba(187, 218, 238, 0.891);
     font-family: Roboto; 
     font-size: clamp(15px, 3vw, 20px);  
-    transition: box-shadow 0.3s ease; 
-    &:hover {
-        box-shadow: 5px 4px 20px 0px rgba(255, 255, 255, 0.742);
-    }  
+    transition: color 0.2s ease; 
+}
+
+.eventAddress:hover {
+    color: rgba(255, 255, 255, 1); 
 }
 
 .eventDescriptionTitle{
@@ -94,6 +93,12 @@
     margin-top: 2%;
 }
 
+.eventShareIcon:hover {
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
 .eventTitleIcons{
     display: flex;
     flex-direction: row;
@@ -106,9 +111,14 @@
     position:fixed;
 }
 
-
-
-
+/* .iconSocialMedia:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .iconSocialMedia:hover:hover {
+    transform: scale(1.5);
+  } */
 
 
 

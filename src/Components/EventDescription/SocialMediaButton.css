@@ -1,0 +1,26 @@
+.shareEventButtons {
+  position: fixed;
+  bottom: 20px;  
+  right: 20px;   
+  z-index: 1000; 
+}
+
+.button {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.iconSocialMedia:hover {
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.iconSocialMedia:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.iconSocialMedia:hover:hover {
+  transform: scale(1.5);
+} 
