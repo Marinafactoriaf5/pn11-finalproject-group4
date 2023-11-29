@@ -1,5 +1,5 @@
 import React from "react";
-import "./ShareButton.css";
+import "./SocialMediaButton.css";
 import FacebookLogo from "../../assets/facebook.png";
 import WhatsappLogo from "../../assets/whatsapp.png";
 import TwitterLogo from "../../assets/twitter.png";
@@ -34,22 +34,16 @@ const EventShareButton = ({ eventId }) => {
   };
 
   return (
-    <div className="shareEventButtons">
-      <span onClick={compartirEnFacebook} style={{ cursor: "pointer" }}>
+    <div className="shareEventButtons" style={{ cursor: "pointer", marginLeft: "10px" }} >
+      <span className="iconSocialMedia" onClick={compartirEnFacebook} >
         <img src={FacebookLogo} alt="Icono Facebook" width="30" height="30" />
       </span>
 
-      <span
-        onClick={compartirEnWhatsApp}
-        style={{ cursor: "pointer", marginLeft: "10px" }}
-      >
+      <span className="iconSocialMedia" onClick={compartirEnWhatsApp} style={{ cursor: "pointer", marginLeft: "10px" }}>
         <img src={WhatsappLogo} alt="Icono WhatsApp" width="30" height="30" />
       </span>
 
-      <span
-        onClick={compartirEnTwitter}
-        style={{ cursor: "pointer", marginLeft: "10px" }}
-      >
+      <span className="iconSocialMedia" onClick={compartirEnTwitter} style={{ cursor: "pointer", marginLeft: "10px" }}>
         <img src={TwitterLogo} alt="Icono Twitter" width="30" height="30" />
       </span>
     </div>

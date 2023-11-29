@@ -1,21 +1,21 @@
 {
     "users":[
-        {
+        {   
             "username": 1 ,
             "mail": "mrullproductiongmail.com",
             "password": "gallega"
         },
-        {
+        {   
             "user": 2 ,
             "mail": "paulgmail.com",
             "password": "argento"
         },
-        {
+        {   
             "id": 3 ,
             "mail": "isaiasgmail.com",
             "password": "mesias"
         },
-        {
+        {   
             "id": 4 ,
             "mail": "chiaragmail.com",
             "password": "tana"
@@ -79,7 +79,7 @@
             "duration": "2 horas",
             "price": "GRATIS",
             "category": "Top Rated",
-            "description": " ",
+            "description": "En el nostálgico evento Retro Fiesta: Viaje al Pasado Divertido, los asistentes son transportados a una época dorada de diversión y alegría. La atmósfera está impregnada de vibrantes colores, luces brillantes y la energía contagiosa de la música retro. Los invitados se sumergen en una experiencia envolvente donde los juegos clásicos, la música vintage y los atuendos emblemáticos de décadas pasadas se entrelazan en un festín visual y auditivo. Desde las brillantes pistas de baile hasta los rincones temáticos que evocan recuerdos de los años dorados, la Retro Fiesta es un viaje temporal que celebra la diversión atemporal, creando momentos de alegría que trascienden las barreras del tiempo.",
             "address": "Oasis Condal, C/ de Sardenya, 520, 08024 Barcelona",
             "map": ["https://maps.app.goo.gl/7UBrzvSa6bwnkFRi9"]
         },
@@ -94,7 +94,7 @@
             "duration": "3 horas",
             "price": "GRATIS",
             "category": "Night",
-            "description": " ",
+            "description": "En el trepidante evento de Carrera de Carritos Locos, la emoción y la creatividad se fusionan en una explosión de velocidad y risas. El escenario se transforma en una pista única, llena de giros intrépidos y desafíos audaces, mientras equipos ingeniosos compiten con carritos caseros diseñados para la velocidad y el estilo. La multitud bulliciosa anima a medida que los intrépidos pilotos, ataviados con disfraces extravagantes, se lanzan cuesta abajo en una carrera repleta de adrenalina. Desde diseños extravagantes hasta momentos cómicos, la Carrera de Carritos Locos es un espectáculo vibrante que combina la destreza técnica con la diversión desenfrenada, creando un evento donde la velocidad se mezcla con la creatividad en una celebración única de la audacia y la originalidad.",
             "address": "Loterías y Estanco Molar, C/ de Pi i Margall, 39, 08024 Barcelona",
             "map": ["https://maps.app.goo.gl/g1m8z93ZWB3cinjc6"]
         },
@@ -109,7 +109,7 @@
             "duration": "2 horas",
             "price": "GRATIS",
             "category": "Top Rated",
-            "description": "¡Bienvenidos a la Fiesta de Risas y Bailes, donde la diversión alcanza su punto álgido en una fusión única de comedia y música! Este evento excepcional te sumergirá en una atmósfera de alegría desbordante y entretenimiento inigualable. Con un elenco estelar de comediantes dispuestos a arrancarte carcajadas con su humor fresco y chispeante, la risa se apoderará de la noche. Desde monólogos ingeniosos hasta bromas inesperadas, cada actuación está diseñada para asegurarte una experiencia cómica sin igual. Pero la diversión no se detiene allí. Después de que los comediantes hayan conquistado tus risas, la pista de baile se iluminará con luces vibrantes, invitándote a dejar que la música te lleve. Un DJ experto mezclará ritmos que van desde los clásicos hasta los éxitos más recientes, creando una experiencia musical que te hará mover los pies sin parar. La pista se llenará de sonrisas y energía festiva mientras todos disfrutan de una noche llena de camaradería y momentos de baile inolvidables. La Fiesta de Risas y Bailes no es solo un evento, es una experiencia completa que fusiona la risa, la música y la celebración en una noche que perdurará en tu memoria. Así que vístete con tu atuendo más festivo, reúnete con amigos y familiares, y únete a nosotros para una velada que te asegura risas interminables y momentos de baile que recordarás con una sonrisa. ¡Te esperamos para crear recuerdos que harán que esta noche sea única e inolvidable!",
+            "description": "En el efervescente Festival de Burbujas y Risas, la magia de las burbujas se fusiona con la alegría contagiosa en un espectáculo encantador que deleita a los sentidos. La atmósfera se llena de risas jubilosas mientras artistas expertos crean gigantescas burbujas que flotan en el aire, reflejando colores brillantes bajo la luz del sol o la iluminación nocturna. Los asistentes se sumergen en un mundo de maravilla donde las burbujas se convierten en obras de arte efímeras, y cada estallido es acompañado por risas espontáneas. Los niños y adultos por igual participan en actividades interactivas, desde perseguir burbujas gigantes hasta sumergirse en baños de burbujas. El Festival de Burbujas y Risas es un evento que celebra la simplicidad y la alegría efervescente, creando recuerdos mágicos que flotan en el corazón mucho después de que las burbujas se desvanecen en el aire.",
             "address": "TAU BARBERSHOP, Travessera de Gràcia, 319, 08025 Barcelona",
             "map": ["https://maps.app.goo.gl/1jxRoP5kDHRQ8srw9"]
         },
@@ -124,7 +124,7 @@
             "duration": "3 horas",
             "price": "GRATIS",
             "category": "Top Rated",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "En la Noche de Juegos Absurdos, la risa se convierte en el juego principal en un festín de diversión y desafíos extravagantes. El escenario se transforma en un campo de locura donde la creatividad y la excentricidad son las reglas del juego. Equipos y participantes se sumergen en una serie de juegos inusuales que desafían la lógica y desatan carcajadas incontrolables. Desde competiciones ridículas hasta desafíos cómicos, la Noche de Juegos Absurdos es un derroche de diversión donde la absurdez se abraza con entusiasmo. Los asistentes se encuentran envueltos en un ambiente festivo, donde lo impredecible se convierte en la norma y la alegría se traduce en puntos ganados. Este evento surrealista no solo proporciona entretenimiento, sino que también crea memorias inolvidables en una noche llena de juegos que desafían la gravedad y la seriedad.",
             "address": "C/ de St. Antoni Maria Claret, 2-18, 08037 Barcelona",
             "map": ["https://maps.app.goo.gl/BrjBo3F6Y3XB6XJm9"]
         },
@@ -139,7 +139,7 @@
             "duration": "1:30 horas",
             "price": "4,00 EUR",
             "category": "Night",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "En el íntimo Club de Lectura dedicado a Cometierra de Dolores Reyes, los participantes se sumergen en un universo literario donde la realidad y lo místico convergen de manera fascinante. La sala está impregnada de la atmósfera cautivadora de la novela, mientras los lectores comparten sus reflexiones sobre la poderosa narrativa que fusiona el realismo mágico con cuestiones sociales urgentes. Las conversaciones se tejen entre las páginas de Cometierra, explorando la complejidad de sus personajes y la profundidad de sus mensajes. La conexión entre los asistentes se fortalece a medida que exploran juntos las complejidades de la obra, fusionando la pasión por la literatura con la exploración de las realidades sociales y humanas. Este Club de Lectura no solo celebra la genialidad de Dolores Reyes, sino que también crea un espacio donde las palabras se convierten en puentes que conectan a los lectores a través de la empatía y la comprensión compartida.",
             "address": "C/ de Còrsega, 425, 08037 Barcelona",
             "map": ["https://maps.app.goo.gl/WDWaNpz3ZwS9k3QU7"]
         },
@@ -154,7 +154,7 @@
             "duration": "1 hora",
             "price": "GRATIS",
             "category": "Night",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "En la Explosión de Risas: Comedia en Vivo, la comedia se convierte en una fuerza magnética que atrae carcajadas y alegría contagiosa. El escenario se ilumina con la energía vibrante de comediantes hábiles que tejen historias hilarantes y observaciones cómicas sobre la vida cotidiana. La audiencia se sumerge en un torbellino de risas, liberando tensiones y creando un ambiente festivo donde el humor es el héroe de la noche. Desde bromas ingeniosas hasta imitaciones cómicas, el evento es un collage de talento cómico que resuena con la diversidad de estilos y el deleite del público. La Explosión de Risas no solo ofrece momentos de entretenimiento puro, sino que también se convierte en un recordatorio vivaz de la capacidad del humor para unir a las personas en una experiencia colectiva de felicidad compartida.",
             "address": "Carrer de Milà i Fontanals, 5, 08037 Barcelona",
             "map": ["https://maps.app.goo.gl/7N67uWYxgdz426su7"]
         },
@@ -169,7 +169,7 @@
             "duration": "2 horas",
             "price": "GRATIS",
             "category": "Night",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "La Fiesta de Disfraces Ridículos emerge como un festín visual de creatividad y desinhibición, donde la extravagancia y la excentricidad se encuentran en su máxima expresión. El escenario se convierte en un desfile de personajes estrafalarios y atuendos absurdo-geniales, creando un ambiente de diversión desenfrenada. Risas contagiosas resuenan en la sala mientras los asistentes se entregan a la libertad de la autoexpresión ridícula. Desde superhéroes improvisados hasta criaturas de otro mundo, la Fiesta de Disfraces Ridículos es un escaparate de imaginación sin límites. El evento se convierte en un espacio donde la normalidad queda suspendida y la creatividad se celebra con entusiasmo, dejando a los participantes con recuerdos coloridos y la sensación efervescente de haber experimentado una noche donde lo absurdo se abraza con alegría desbordante.",
             "address": "C/ de Roger de Llúria, 157, 08037 Barcelona",
             "map": ["https://maps.app.goo.gl/XL6XmhfEgqJkitYx6 "]
         },
@@ -184,7 +184,7 @@
             "duration": "2 horas",
             "price": "GRATIS",
             "category": "Night",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "La Maratón de Películas Cómicas se presenta como un banquete cinematográfico de risas ininterrumpidas, donde la diversión es la protagonista indiscutible. La atmósfera se carga de anticipación y expectativa mientras los asistentes se acomodan en cómodos asientos para disfrutar de una sucesión de películas que prometen alegría y entretenimiento. Desde clásicos hilarantes hasta comedias contemporáneas, la pantalla se ilumina con situaciones cómicas, diálogos ingeniosos y personajes inolvidables. La risa se propaga contagiosamente entre la audiencia, creando un ambiente festivo donde las carcajadas se mezclan con palomitas de maíz y comentarios divertidos. La Maratón de Películas Cómicas no solo ofrece un escape humorístico, sino que también se convierte en un evento que une a los amantes del cine en una celebración colectiva de la comedia en todas sus formas, dejando a los participantes con corazones ligeros y sonrisas que perduran mucho después de la última escena.",
             "address": "C/ de Provença, nº549, 08012 Barcelona ",
             "map": ["https://maps.app.goo.gl/yUwT4Z95J74JCRPX7 "]
         },
@@ -199,7 +199,7 @@
             "duration": "3 horas",
             "price": "GRATIS",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "En el Desafío de Baile Ridículo, la pista se convierte en un escenario de caos coreografiado y diversión desenfrenada. Participantes audaces y creativos se lanzan al centro de la pista con movimientos estrafalarios, ataviados con disfraces que desafían la lógica y la gravedad. Risas resonantes llenan el aire mientras los bailarines ejecutan pasos cómicamente exagerados y despliegan gestos extravagantes. La competencia se convierte en una explosión de alegría, donde la originalidad y la torpeza se celebran con entusiasmo. Desde interpretaciones de baile inspiradas en personajes de la cultura pop hasta movimientos completamente inesperados, el Desafío de Baile Ridículo no solo es un espectáculo visualmente impactante, sino también una experiencia que fusiona la música, la risa y la creatividad en una amalgama de entretenimiento inolvidable.",
             "address": "Passeig de Gràcia, 82-90, 08008 Barcelona ",
             "map": ["https://maps.app.goo.gl/BWxKCPLxJmAVUbdZA "]
         },
@@ -214,7 +214,7 @@
             "duration": "2 horas",
             "price": "5,00 EUR",
             "category": "Night",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "En el Karaoke del Caos, el escenario se convierte en un torbellino de notas estrafalarias y actuaciones desenfrenadas. Con una energía electrizante, participantes valientes se lanzan a la vorágine musical, interpretando canciones icónicas con un giro completamente inesperado. Desde imitaciones cómicas hasta reinterpretaciones totalmente únicas, el caos se mezcla con la música para crear un espectáculo donde la risa y el asombro van de la mano. La audiencia se sumerge en un universo sonoro impredecible, donde cada actuación es una sorpresa y cada error se celebra con carcajadas. El Karaoke del Caos no solo es un evento de canto, sino una experiencia donde la música se fusiona con la comedia, creando un ambiente festivo donde la diversión y la improvisación reinan supremas.",
             "address": "C/ de Bailèn, 19, 08010 Barcelona ",
             "map": ["https://maps.app.goo.gl/yFaTHmS87FDs6q3D8 "]
         },
@@ -229,7 +229,7 @@
             "duration": "1:15 horas",
             "price": "GRATIS",
             "category": "Night",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "La Fiesta de Pijamas a lo Grande transforma la noche en una celebración íntima y extravagante donde la comodidad se combina con el glamour. Los asistentes, ataviados con pijamas de todo tipo, se sumergen en un ambiente acogedor lleno de almohadas mullidas, mantas suaves y luces tenues. La sala se convierte en un escenario de risas contagiosas, juegos de salón y actividades relajadas. Desde estampados alocados hasta conjuntos temáticos, la moda de pijamas se convierte en una expresión de estilo desenfadado. Entre risas cómplices y conversaciones relajadas, la Fiesta de Pijamas a lo Grande crea un espacio donde la camaradería y la diversión se entrelazan, brindando a los participantes una experiencia única que combina la simplicidad de la pijamada con toques de extravagancia, convirtiendo la noche en un recuerdo cálido y divertido.",
             "address": "Carrer de Méndez Núñez, 19, 08010 Barcelona ",
             "map": ["https://maps.app.goo.gl/RRkeLLHPsAFzPoET6 "]
         },
@@ -244,7 +244,7 @@
             "duration": "1 dia y 19 horas",
             "price": "GRATIS",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "La Caza del Tesoro Absurda lleva a los participantes en un viaje delirante en busca de tesoros peculiares y desafíos inesperados. Con mapas en mano y atuendos extravagantes, los equipos se lanzan a explorar lugares inusuales mientras enfrentan pruebas cómicas y enigmas absurdistas. Desde buscar unicornios invisibles hasta recolectar objetos tan extraños como divertidos, la caza del tesoro se convierte en una experiencia que combina la emoción de la exploración con la risa constante. La energía contagiosa de los participantes se refleja en cada rincón, transformando la búsqueda en una mezcla única de diversión, camaradería y creatividad desbordante. La Caza del Tesoro Absurda no solo desafía las habilidades de los participantes, sino que también crea recuerdos cómicos y momentos inolvidables en un evento que celebra lo inusual y lo impredecible.",
             "address": "C/ del Bruc, 3, 08010 Barcelona ",
             "map": ["https://maps.app.goo.gl/JPaZLF9epzLziKGq7 "]
         },
@@ -259,7 +259,7 @@
             "duration": "1 hora",
             "price": "12,00 EUR",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "En el evento de Yoga Dinámico, el ambiente se impregna de una energía revitalizante mientras los participantes se sumergen en una experiencia que fusiona la serenidad del yoga con la dinámica de movimientos vigorizantes. El espacio se transforma en un santuario de bienestar, donde los practicantes, guiados por instructores expertos, exploran secuencias fluidas que combinan la fuerza, la flexibilidad y la respiración consciente. La música en armonía con los movimientos y la atmósfera serena crean una sensación de fluidez y vitalidad. Desde posturas desafiantes hasta transiciones fluidas, el Yoga Dinámico no solo fortalece el cuerpo, sino que también nutre la mente, proporcionando a los participantes un escape rejuvenecedor del ajetreo diario. Este evento invita a los practicantes a explorar la conexión entre cuerpo y mente, dejando a su paso una sensación de equilibrio y bienestar que perdura mucho después de que las esterillas se enrollan.",
             "address": "Carrer de l'Argenter, 08003 Barcelona ",
             "map": ["https://maps.app.goo.gl/DfNC1ypuYX9Wh7ga6 "]
         },
@@ -274,7 +274,7 @@
             "duration": "1:30 horas",
             "price": "PAGO",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "En el apacible entorno costero de Badalona, el evento de Hatha Yoga se erige como un refugio de serenidad y bienestar. Con el sonido suave de las olas como fondo, los participantes se embarcan en una experiencia enriquecedora que fusiona la tradición del yoga con la belleza del entorno marítimo. Bajo la guía de instructores expertos, la práctica de Hatha Yoga se convierte en una danza tranquila de posturas equilibradas, respiración consciente y meditación serena. El suave murmullo del mar acompaña cada movimiento, creando una armonía natural que envuelve a los participantes en una sensación de calma y conexión con el entorno. El evento de Hatha Yoga en Badalona no solo nutre el cuerpo y la mente, sino que también ofrece a los practicantes un escape rejuvenecedor donde la práctica del yoga se integra perfectamente con la serenidad del paisaje costero, proporcionando un oasis de paz en medio del bullicio cotidiano.",
             "address": "Carrer de Sant Pere Mitjà, 21BIS, 08003 Barcelona ",
             "map": ["https://maps.app.goo.gl/diNagVk956q8tQ356 "]
         },
@@ -289,7 +289,7 @@
             "duration": "2 horas",
             "price": "PAGO",
             "category": "Top Rated",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "address": "Carrer d'Avellà, 2, 08003 Barcelona ",
             "map": ["https://maps.app.goo.gl/GEG3MUHukXvVBxQV7 "]
         },
@@ -304,7 +304,7 @@
             "duration": "2 horas",
             "price": "15 EUR",
             "category": "Night",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "address": "Carrer dels Cotoners, 11, 08003 Barcelona ",
             "map": ["https://maps.app.goo.gl/92WTX7nRT1ek8xEJ6 "]
         },
@@ -319,7 +319,7 @@
             "duration": "1 horas",
             "price": "GRATIS",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "address": "Carrer d'Avinyó, 35, 08002 Barcelona ",
             "map": ["https://maps.app.goo.gl/SSN68fDyu9MgGA2SA "]
         },
@@ -334,7 +334,7 @@
             "duration": "2 horas",
             "price": "62 EUR",
             "category": "Night",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "address": "Carrer dels Escudellers, 12, 08002 Barcelona ",
             "map": ["https://maps.app.goo.gl/bPk84NEDifAz5D3fA "]
         },
@@ -349,7 +349,7 @@
             "duration": "11:20 horas",
             "price": "GRATIS",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "address": "Carrer de la Unió, 3, 08001 Barcelona ",
             "map": ["https://maps.app.goo.gl/ab1z8v7XxQX6UyrD8 "]
         },
@@ -364,7 +364,7 @@
             "duration": "9:05 horas",
             "price": "GRATIS",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "address": "C. del Marqués de Barberá, 25, 08001 Barcelona ",
             "map": ["https://maps.app.goo.gl/xaTgyzaCU6PRr2Ez6 "]
         },
@@ -379,7 +379,7 @@
             "duration": "3 horas",
             "price": "GRATIS",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "address": "Rambla del Raval, 12, 08001 Barcelona ",
             "map": ["https://maps.app.goo.gl/zfVQKUxUCJ3qsJVV7 "]
         },
@@ -394,7 +394,7 @@
             "duration": "1:15 horas",
             "price": "GRATIS",
             "category": "Day",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "description": "",
             "address": "C/ de Sant Pau, 115, LOCAL 1, 08001 Barcelona ",
             "map": ["https://maps.app.goo.gl/XU8myes2fd4YLnVZA "]
         },

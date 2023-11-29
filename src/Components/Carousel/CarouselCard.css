@@ -5,12 +5,11 @@
     background: var(--white, #FFF);
     margin: 2% 0 0 2%;
     min-width: 200px;
+    max-width: 200px;
     position: relative;
     cursor: pointer;
     text-decoration: none;
     transition: 0.4s ease-in-out;
-    
-    
 }
 .catalogCard:hover {
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.8);
@@ -18,10 +17,12 @@
     filter: brightness(1.2);
     filter: blur(0);
 }
+
 .eventImage {
     width: 100%;
     border-radius: 10% 10% 0 0; 
 }
+
 .eventText {
     padding: 10% 6% 10% 10%;
     color: black;
@@ -29,6 +30,7 @@
     flex-direction: column;
     gap: 0.7vw;
 }
+
 .eventName,
 p {
     box-sizing: border-box;
