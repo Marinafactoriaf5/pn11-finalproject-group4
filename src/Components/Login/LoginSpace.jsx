@@ -29,7 +29,7 @@ const LoginSpace = () => {
         <img src={Img} alt="Chachi"></img>
       </div>
       <div className="bodyLogin">
-        <a href="/" className="logoLink">
+        <a href="/home" className="logoLink">
           <img src={Logo} alt="Logo" className="logoImage" />
         </a>
         <div className="bodySquare">
