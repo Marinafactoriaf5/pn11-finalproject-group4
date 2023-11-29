@@ -3,21 +3,23 @@ import "./Header.css";
 import Logo from "./Logo";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
-      <a className="logo">
-       <Logo/>
-       </a>
-      <a className="navLogin" href="/loginPage">
-      <FontAwesomeIcon icon={faUser} />
-      {/* {isLoggedIn ? 'Logout' : 'Login'} */}
-    </a>
+      <Link to="/home" className="logo">
+        <Logo />
+      </Link>
+      <Link to="/loginPage" className="navLogin">
+        <FontAwesomeIcon icon={faUser} />
+        {/* {isLoggedIn ? 'Logout' : 'Login'} */}
+      </Link>
     </header>
   );
 }
 
 export default Header;
+
 
 
