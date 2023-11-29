@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import EventShareButton from "../EventDescription/ShareButton";
+import EventShareButton from "./SocialMediaButton";
 import "./EventDescription.css";
 import shareButton from "../../assets/shareButton.png";
 import heart from "../../assets/heart.png";
@@ -59,23 +59,20 @@ function EventDescription() {
         <div className="eventTitleIcons">
           <h1 className="eventTitle">{eventData.name}</h1>
           <img className="eventHeart" src={heart} />
-          <img
-            className="eventShareIcon"
-            src={shareButton}
-            onClick={handleShareButtonClick}
-          />
+          <img className="eventShareIcon" src={shareButton} onClick={handleShareButtonClick}/>
+          <button className="eventPrice">{eventData.price}</button>
+
         </div>
         {isCopied && <p className="eventShareButtonMessage">¡URL copiada al portapapeles!</p>}
         <a className="eventAddress" href={eventData.map}>
           {eventData.address}
         </a>
-        <p className="eventDay">{eventData.schedule.day}</p>
+        <p className="eventDay">{eventData.schedule.day}</p> 
         <p className="eventTime">{eventData.schedule.time}</p>
-        <p className="eventDescription">
+        <p className="eventDescription"> 
           <p className="eventDescriptionTitle">Descripción</p>
           {eventData.description}
         </p>
-        <button className="eventPrice">{eventData.price}</button>
       </div>
       <EventShareButton eventId={eventData.id} />
     </div>
