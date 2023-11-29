@@ -8,12 +8,20 @@
     height: 100%;
 }
 
-.bodySquare {
+.bodyLoginBackground{
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -3;
+    opacity: 0.5; 
+}
 
-    width: 35vw;
-    height: 50vh;
+.bodySquare {
+    min-width: 35%;
+    height: 50%;
     background-color: rgba(237, 233, 234, 0.157);
     border-radius: 15%;
+    box-sizing: content-box;
 }
 
 .bodySquareDiv {
@@ -24,12 +32,11 @@
     justify-content: space-evenly;
     flex-direction: column;
     backdrop-filter: blur(1px);
-
 }
-.logoImage{
+
+.logoImage {
     margin-left: 22%;
     width: 50%;
-    
 }
 
 .pointer {
@@ -38,7 +45,7 @@
 
 .btn-purple {
     background-color: rgb(229, 221, 15);
-    border: 1px solid white;
+    border: none;
     letter-spacing: 0.1rem;
     padding: 5px;
     border-radius: 10px;
@@ -49,7 +56,6 @@
 }
 
 .forgot-text {
-    
     color: white;
     font-size: 0.9rem;
 }
@@ -91,12 +97,11 @@ label {
     letter-spacing: 0.1rem;
     color: rgb(255, 255, 255);
 }
+
 .userNameInput,
-.passwordInput{
+.passwordInput {
     width: 100%;
     padding-left: 10px;
-    max-width: 100%;
-    box-sizing: border-box;
     border: none;
     height: 40px;
     border-radius: 5px;

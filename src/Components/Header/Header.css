@@ -2,15 +2,14 @@ header {
   width: 100%;
   height: 20%;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   background: linear-gradient(180deg, rgba(1, 22, 35, 0.90) 0%, rgba(1, 22, 35, 0.80) 33.33%, rgba(1, 22, 35, 0.50) 66.67%, rgba(1, 22, 35, 0.00) 100%);
   position: fixed;
   z-index: 10;
-
 }
 
 .navLogin {
-  width: 100%;
   position: absolute;
   top: 13%;
   display: flex;
@@ -27,4 +26,17 @@ header {
   border-radius: 50%;
   background-color: #eee; 
   padding: 10px; 
+}
+.navContainer {
+  position: absolute;
+  left: 0%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navLogin {
+  right: 1.5%;
+  cursor: pointer; /* Agrega un cursor pointer para indicar que es un enlace */
+  color: white;
 }
