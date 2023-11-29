@@ -45,14 +45,13 @@
 
 .btn-purple {
     background-color: rgb(229, 221, 15);
-    border: none;
-    letter-spacing: 0.1rem;
-    padding: 5px;
     border-radius: 10px;
+    opacity: 0.9;
 }
 
 .btn-purple:hover {
-    filter: brightness(1.2);
+    opacity: 1;
+    
 }
 
 .forgot-text {
@@ -60,18 +59,21 @@
     font-size: 0.9rem;
 }
 
-.forgot-text:hover {
-    filter: brightness(1.2);
+
+.form-floating{
+    margin: 5%;
 }
 
 .pwd-icon {
-    color: var(--amarillo);
-    bottom: 25%;
-    right: 5%;
+    position: absolute;
+    color: #022439;
+    bottom: 39%;
+    right: 15%;
+
 }
 
 .pwd-icon:hover {
-    filter: brightness(1.2);
+    filter: brightness(2);
 }
 
 .form-control {
