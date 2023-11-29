@@ -24,7 +24,7 @@ const LoginSpace = () => {
   };
 
   return (
-    <div className="Login">
+    <div className="login">
       <div className="bodyLoginBackground">
         <img src={Img} alt="Chachi"></img>
       </div>
@@ -88,15 +88,15 @@ const LoginSpace = () => {
                   id="password"
                 />
               </div>
-              <div className="px-5">
+              <div className="btnSubmit">
                 <button
                   type="submit"
-                  className="text-white btn-purple mt-3 text-center py-2 fw-semibold fs-4 rounded-3 w-100 border border-4 border-white shadow"
+                  className="btnYellow"
                 >
                   Iniciar Sesión
                 </button>
               </div>
-              {error && <p>Todos los campos son obligatorios</p>}
+              {error && <p>*Todos los campos son obligatorios*</p>}
             </form>
           </div>
         </div>
