@@ -78,15 +78,7 @@ function EventDescription() {
         </p>
         <button className="eventPrice">{eventData.price}</button>
       </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
       <EventShareButton eventId={eventData.id} />
-
-=======
->>>>>>> devel
-=======
-      <EventShareButton eventId={eventData.id} />
->>>>>>> 6f53e6732a2ee11da561ca322ee6d32c9405e083
     </div>
   );
 }
