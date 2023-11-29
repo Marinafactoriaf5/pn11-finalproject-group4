@@ -7,7 +7,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 function Header() {
   return (
     <header>
-      <a className="Logo">
+      <a className="logo">
        <Logo/>
        </a>
       <a className="navLogin" href="/loginPage">
