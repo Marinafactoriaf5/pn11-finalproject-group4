@@ -12,7 +12,7 @@ const WelcomePage = () => {
       <div className="content">
         <h1>¡Bienvenidx aventurerx!</h1>
         <Link to="/home">
-          <button>Presiona si estás preparadx para vivir</button>
+          <button className='contentButton'>Presiona si estás preparadx para VIVIR</button>
         </Link>
       </div>
     </div>

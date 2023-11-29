@@ -59,13 +59,13 @@ height: 8vh;
 
 }
 
-
 .eventAddress{
     text-decoration: none;
     color: rgba(187, 218, 238, 0.891);
     font-family: Roboto; 
     font-size: clamp(15px, 3vw, 20px);  
     transition: color 0.2s ease; 
+    cursor: pointer;
 }
 
 .eventAddress:hover {
