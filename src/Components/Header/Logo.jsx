@@ -4,7 +4,7 @@ import "./Logo.css"
 
 function Logo() {
   return (
-    <div> <a href="/" className="logo-link">
+    <div> <a href="/home" className="logo-link">
     <img src={Vivid} className="logo" alt="VIVID" />
     </a></div>
   )
