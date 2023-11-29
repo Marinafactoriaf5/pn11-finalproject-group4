@@ -61,7 +61,6 @@ function EventDescription() {
           <h1 className="eventTitle">{eventData.name}</h1>
           <img className="eventHeart" src={heart} />
           <img className="eventShareIcon" src={shareButton} onClick={handleShareButtonClick}/>
-          <button className="eventPrice">{eventData.price}</button>
 
         </div>
         {isCopied && <p className="eventShareButtonMessage">¡URL copiada al portapapeles!</p>}
@@ -71,6 +70,7 @@ function EventDescription() {
         <p className="eventDay">{eventData.schedule.day}</p> 
         <p className="eventTime">{eventData.schedule.time}</p>
         <p className="eventDescription"> 
+        <button className="eventPrice">{eventData.price}</button>
           <p className="eventDescriptionTitle">Descripción</p>
           {eventData.description}
         </p>

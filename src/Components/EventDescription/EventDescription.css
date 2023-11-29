@@ -35,7 +35,6 @@
     color: rgba(187, 218, 238, 0.891);
     font-family: Roboto;
     font-size: clamp(15px, 3vw, 20px);
-    padding: 0 1vw 3vw 0;
 }
 
 .eventDescription {
@@ -45,11 +44,12 @@
 }
 
 .eventPrice{
-position: sticky;
-margin-left: 20%;
+margin-top: -30%;
+margin-left: 88%;
 font-family: Roboto;
 font-size: clamp(15px, 3vw, 20px);
-color: rgba(187, 218, 238, 0.891);
+font-weight: 50;
+color: white;
 padding: 1vw;
 border-radius: 10px;
 border: none;
