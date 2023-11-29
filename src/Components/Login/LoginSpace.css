@@ -6,13 +6,14 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url(/src/assets/loginBackground.jpeg);
-    z-index: -3;
+}
+
+.bodyLoginBackground{
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
-    
+    position: absolute;
+    z-index: -3;
+    opacity: 0.5; 
 }
 
 .bodySquare {
@@ -33,7 +34,7 @@
     backdrop-filter: blur(1px);
 }
 
-.logoImage{
+.logoImage {
     margin-left: 22%;
     width: 50%;
 }
@@ -98,7 +99,7 @@ label {
 }
 
 .userNameInput,
-.passwordInput{
+.passwordInput {
     width: 100%;
     padding-left: 10px;
     border: none;
