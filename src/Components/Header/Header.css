@@ -9,7 +9,6 @@ header {
 }
 
 .navLogin {
-  width: 100%;
   position: absolute;
   top: 13%;
   display: flex;
@@ -26,4 +25,17 @@ header {
   border-radius: 50%;
   background-color: #eee; 
   padding: 10px; 
+}
+.navContainer {
+  position: absolute;
+  left: 0%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navLogin {
+  right: 1.5%;
+  cursor: pointer; /* Agrega un cursor pointer para indicar que es un enlace */
+  color: white;
 }

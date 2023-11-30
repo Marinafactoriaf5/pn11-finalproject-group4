@@ -13,11 +13,20 @@
     
 }
 
+.bodyLoginBackground{
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -3;
+    opacity: 0.5; 
+}
+
 .bodySquare {
-    width: 35vw;
-    height: 50vh;
+    min-width: 35%;
+    height: 50%;
     background-color: rgba(237, 233, 234, 0.157);
     border-radius: 15%;
+    box-sizing: content-box;
 }
 
 .bodySquareDiv {
@@ -30,7 +39,7 @@
     backdrop-filter: blur(1px);
 }
 
-.logoImage{
+.logoImage {
     margin-left: 22%;
     width: 50%;
 }
@@ -41,7 +50,7 @@
 
 .btn-purple {
     background-color: rgb(229, 221, 15);
-    border: 1px solid white;
+    border: none;
     letter-spacing: 0.1rem;
     padding: 5px;
     border-radius: 10px;
@@ -95,11 +104,9 @@ label {
 }
 
 .userNameInput,
-.passwordInput{
+.passwordInput {
     width: 100%;
     padding-left: 10px;
-    max-width: 100%;
-    box-sizing: border-box;
     border: none;
     height: 40px;
     border-radius: 5px;
