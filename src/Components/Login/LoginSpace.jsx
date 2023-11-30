@@ -49,7 +49,6 @@ const LoginSpace = () => {
                   className="position-absolute pointer pwd-icon"
                   onClick={() => setShowPwd(!showPwd)}
                 >
-                  {/* (Código del ícono omitido para mayor claridad) */}
                 </div>
                 <input
                   type={showPwd ? "text" : "password"}
