@@ -10,9 +10,9 @@ const WelcomePage = () => {
         <source src={Video} type="video/mp4" />
       </video>
       <div className="content">
-        <h1>¡Bienvenidx aventurerx!</h1>
+        <h1 className='titleContent'>¡Bienvenidx aventurerx!</h1>
         <Link to="/home">
-          <button className='contentButton'>Presiona si estás preparadx para VIVIR</button>
+          <button className='contentButton'><strong>Presiona si estás preparadx para VIVIR</strong></button>
         </Link>
       </div>
     </div>
