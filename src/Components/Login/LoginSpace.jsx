@@ -94,7 +94,7 @@ const LoginSpace = () => {
                   Iniciar Sesión
                 </button>
               </div>
-              {error && <p>*Todos los campos son obligatorios*</p>}
+              {error && <p className="textError">*Todos los campos son obligatorios*</p>}
             </form>
           </div>
         </div>

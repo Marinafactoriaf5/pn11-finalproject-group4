@@ -1,11 +1,11 @@
-
-.login{
+.login {
     width: 100vw;
     height: 100vh;
     background-image: url(/src/assets/loginBackground.jpeg);
-  background-size: cover;   
-  background-position: center;
+    background-size: cover;
+    background-position: center;
 }
+
 .bodyLogin {
     position: fixed;
     display: flex;
@@ -14,21 +14,21 @@
     align-items: center;
     top: 20%;
     left: 20%;
-    
-    
+
+
 }
 
-.bodyLoginBackground{
+.bodyLoginBackground {
     position: fixed;
     z-index: -3;
-    opacity: 0.5;    
+    opacity: 0.5;
 }
 
 .bodySquare {
     min-width: 50%;
     background-color: rgba(237, 233, 234, 0.157);
     border-radius: 15%;
-    
+
 }
 
 .bodySquareDiv {
@@ -49,21 +49,27 @@
 .pointer {
     cursor: pointer;
 }
-.btnSubmit{
+
+.btnSubmit {
     display: flex;
     justify-content: center;
 }
+
 .btnYellow {
     background-color: rgb(229, 221, 15);
-    border-radius: 10px;
+    padding: 3%;
+    border: none;
+    border-radius: 5px;
     opacity: 0.9;
     font-size: small;
-    font-weight: bolder;  
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 .btnYellow:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.337);
     opacity: 1;
-    
+
 }
 
 .forgot-text {
@@ -72,7 +78,7 @@
 }
 
 
-.form-floating{
+.form-floating {
     margin: 5%;
 }
 
@@ -83,7 +89,7 @@
     display: flex;
     justify-content: end;
     z-index: 25;
-    transform: translate(880% ,130%);
+    transform: translate(880%, 130%);
 }
 
 .pwd-icon:hover {
@@ -129,7 +135,8 @@ label {
     box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
     z-index: 20;
 }
-p{
+
+.textError {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     text-align: center;
