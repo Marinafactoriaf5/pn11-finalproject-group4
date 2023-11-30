@@ -29,13 +29,16 @@ body {
     text-align: center;
     color: white;
   }
-  
-  button {
-    font-size: 1.5rem;
-    padding: 10px 20px;
-    background-color: #61dafb;
-    color: white;
+
+  .contentButton{
+    position: sticky;
+    font-family: Roboto;
+    color: rgba(187, 218, 238, 0.891);
+    padding: 2vw;
+    border-radius: 10px;
     border: none;
+    background: rgba(109, 163, 196, 0.67);
+    width: fit-content;
     cursor: pointer;
   }
   
