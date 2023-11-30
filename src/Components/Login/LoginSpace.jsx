@@ -25,9 +25,7 @@ const LoginSpace = () => {
 
   return (
     <div className="login">
-      <div className="bodyLoginBackground">
-        <img src={Img} alt="Chachi"></img>
-      </div>
+      
       <div className="bodyLogin">
         <a href="/home" className="logoLink">
           <img src={Logo} alt="Logo" className="logoImage" />
