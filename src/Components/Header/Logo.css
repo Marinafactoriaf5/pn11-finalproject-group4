@@ -1,5 +1,4 @@
 .logo {
     width: clamp(150px, 20%, 200px);
-    margin-top: -30px;
     margin-left: 1%
   }  
