@@ -9,6 +9,7 @@ function Hero() {
         <h1 className="textHero1">Te gustan las aventuras?</h1>
         <h3 className="textHero2">Descubre los eventos que pasan cerca tuyo</h3>
       </div>
+      <div className="fadeDiv"></div>
     </div>
   );
 }
